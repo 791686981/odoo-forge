@@ -24,7 +24,7 @@ This repository is being finalized as the internal 1.0 release of Odoo Forge.
 The current target is a minimal, team-usable release:
 
 - install from `npm`
-- install skills directly into `~/.agents/skills/odoo-forge`
+- install skills directly into `~/.agents/skills`
 - write FlowUS MCP directly into Codex and Claude local config
 - update with a single command without cloning the repository
 - release the bundle and CLI with a documented npm flow

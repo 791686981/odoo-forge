@@ -35,7 +35,7 @@ test("install 会安装技能并直写 Codex 与 Claude MCP", async () => {
   });
 
   assert.ok(
-    fs.existsSync(path.join(homeDir, ".agents", "skills", "odoo-forge", "demo", "SKILL.md")),
+    fs.existsSync(path.join(homeDir, ".agents", "skills", "demo", "SKILL.md")),
   );
 
   const codexConfig = fs.readFileSync(path.join(homeDir, ".codex", "config.toml"), "utf8");
@@ -45,6 +45,30 @@ test("install 会安装技能并直写 Codex 与 Claude MCP", async () => {
   const claudeConfig = JSON.parse(fs.readFileSync(path.join(homeDir, ".claude.json"), "utf8"));
   assert.equal(claudeConfig.mcpServers.flowus.command, "npx");
   assert.equal(claudeConfig.mcpServers.flowus.env.FLOWUS_TOKEN, "demo-token");
+});
+
+test("install 只覆盖 Odoo Forge 自带技能并清理旧命名空间目录", async () => {
+  const homeDir = fs.mkdtempSync(path.join(os.tmpdir(), "odoo-forge-home-"));
+  const bundleRoot = createBundleFixture();
+
+  fs.mkdirSync(path.join(homeDir, ".agents", "skills", "custom"), { recursive: true });
+  fs.writeFileSync(path.join(homeDir, ".agents", "skills", "custom", "SKILL.md"), "# custom");
+  fs.mkdirSync(path.join(homeDir, ".agents", "skills", "odoo-forge", "demo"), { recursive: true });
+  fs.writeFileSync(path.join(homeDir, ".agents", "skills", "odoo-forge", "demo", "SKILL.md"), "# old");
+
+  await main(["install"], {
+    homeDir,
+    env: { ODOO_FORGE_FLOWUS_TOKEN: "demo-token" },
+    bundleRoot,
+    output: { log() {}, error() {} },
+    promptForSecret: async () => {
+      throw new Error("should not prompt");
+    },
+  });
+
+  assert.ok(fs.existsSync(path.join(homeDir, ".agents", "skills", "demo", "SKILL.md")));
+  assert.ok(fs.existsSync(path.join(homeDir, ".agents", "skills", "custom", "SKILL.md")));
+  assert.equal(fs.existsSync(path.join(homeDir, ".agents", "skills", "odoo-forge")), false);
 });
 
 test("login flowus 会同步更新 Codex 与 Claude 的 token", async () => {

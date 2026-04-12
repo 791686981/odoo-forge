@@ -72,7 +72,7 @@ odoo-forge doctor
 
 Verify:
 
-1. `~/.agents/skills/odoo-forge/` exists
+1. `~/.agents/skills/` contains the installed Odoo Forge skills
 2. `~/.codex/config.toml` contains the managed `flowus` block
 3. `~/.claude.json` contains `mcpServers.flowus`
 4. `odoo-forge doctor` reports both Codex and Claude FlowUS MCP as present
@@ -85,7 +85,7 @@ Run these checks on a real Windows machine before calling the release stable:
 2. set `ODOO_FORGE_FLOWUS_TOKEN` in PowerShell or use `odoo-forge login flowus`
 3. run `odoo-forge install`
 4. run `odoo-forge doctor`
-5. confirm `%USERPROFILE%\\.agents\\skills\\odoo-forge` exists
+5. confirm `%USERPROFILE%\\.agents\\skills` contains the installed Odoo Forge skills
 6. confirm `%USERPROFILE%\\.codex\\config.toml` contains the managed `flowus` block
 7. confirm `%USERPROFILE%\\.claude.json` contains `mcpServers.flowus`
 8. confirm `odoo-forge doctor` shows both FlowUS MCP entries as present

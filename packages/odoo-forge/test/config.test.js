@@ -7,16 +7,15 @@ import {
   getClaudeConfigPath,
   getCodexConfigPath,
   getInstalledSkillsPath,
+  getLegacyInstalledSkillsPath,
 } from "../src/paths.js";
 
 test("技能安装与配置路径都落在用户目录下", () => {
   const homeDir = "/tmp/odoo-forge-home";
 
   assert.equal(getAgentsSkillsRoot({ homeDir }), path.join(homeDir, ".agents", "skills"));
-  assert.equal(
-    getInstalledSkillsPath({ homeDir }),
-    path.join(homeDir, ".agents", "skills", "odoo-forge"),
-  );
+  assert.equal(getInstalledSkillsPath({ homeDir }), path.join(homeDir, ".agents", "skills"));
+  assert.equal(getLegacyInstalledSkillsPath({ homeDir }), path.join(homeDir, ".agents", "skills", "odoo-forge"));
   assert.equal(getCodexConfigPath({ homeDir }), path.join(homeDir, ".codex", "config.toml"));
   assert.equal(getClaudeConfigPath({ homeDir }), path.join(homeDir, ".claude.json"));
 });

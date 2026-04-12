@@ -12,6 +12,7 @@ import {
   getClaudeConfigPath,
   getCodexConfigPath,
   getInstalledSkillsPath,
+  getLegacyInstalledSkillsPath,
 } from "./paths.js";
 
 function printHelp() {
@@ -67,10 +68,18 @@ async function defaultSpawnProcess(command, args, options = {}) {
 function installSkills({ bundleRoot, homeDir }) {
   const sourceSkillsDir = path.join(bundleRoot, "skills");
   const targetSkillsDir = getInstalledSkillsPath({ homeDir });
+  const legacySkillsDir = getLegacyInstalledSkillsPath({ homeDir });
 
   fs.mkdirSync(getAgentsSkillsRoot({ homeDir }), { recursive: true });
-  fs.rmSync(targetSkillsDir, { recursive: true, force: true });
-  fs.cpSync(sourceSkillsDir, targetSkillsDir, { recursive: true });
+  fs.rmSync(legacySkillsDir, { recursive: true, force: true });
+
+  for (const entry of fs.readdirSync(sourceSkillsDir, { withFileTypes: true })) {
+    const sourceEntryPath = path.join(sourceSkillsDir, entry.name);
+    const targetEntryPath = path.join(targetSkillsDir, entry.name);
+
+    fs.rmSync(targetEntryPath, { recursive: true, force: true });
+    fs.cpSync(sourceEntryPath, targetEntryPath, { recursive: true });
+  }
 
   return targetSkillsDir;
 }

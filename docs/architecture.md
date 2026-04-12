@@ -35,7 +35,7 @@ The bundle contains the install-time payload copied into local Odoo Forge runtim
 The intended runtime model is:
 
 1. users install and update through `npm`
-2. skills are copied into `~/.agents/skills/odoo-forge`
+2. skills are copied into `~/.agents/skills`
 3. Codex gets a managed `flowus` block in `~/.codex/config.toml`
 4. Claude gets `mcpServers.flowus` in `~/.claude.json`
 5. both platforms launch FlowUS directly with `npx -y flowus-mcp-server@latest`
@@ -81,7 +81,6 @@ The intended local installation layout is:
 ```text
 ~/.agents/
 └── skills/
-    └── odoo-forge/
 
 ~/.codex/
 └── config.toml

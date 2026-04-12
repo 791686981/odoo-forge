@@ -1,6 +1,6 @@
 {
   "name": "odoo-forge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Odoo skill suite for Codex and Claude Code.",
   "skills": "./skills",
   "mcpServers": "./.mcp.json",

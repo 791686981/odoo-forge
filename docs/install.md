@@ -82,13 +82,13 @@ odoo-forge install
 1. read `ODOO_FORGE_FLOWUS_TOKEN` or `FLOWUS_TOKEN` if present
 2. if the token is missing, try to reuse the current Codex or Claude MCP token
 3. prompt interactively only when the token is still missing
-4. copy skills into `~/.agents/skills/odoo-forge`
+4. copy skills into `~/.agents/skills`
 5. write a managed `flowus` block into `~/.codex/config.toml`
 6. write `mcpServers.flowus` into `~/.claude.json`
 
 ## Local Install Paths
 
-- skills: `~/.agents/skills/odoo-forge`
+- skills: `~/.agents/skills`
 - Codex MCP: `~/.codex/config.toml`
 - Claude MCP: `~/.claude.json`
 

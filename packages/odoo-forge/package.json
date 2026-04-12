@@ -1,10 +1,10 @@
 {
   "name": "odoo-forge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI installer and updater for Odoo Forge internal 1.0.",
   "type": "module",
   "dependencies": {
-    "odoo-forge-bundle": "0.1.0"
+    "odoo-forge-bundle": "0.1.1"
   },
   "bin": {
     "odoo-forge": "bin/odoo-forge.js"
