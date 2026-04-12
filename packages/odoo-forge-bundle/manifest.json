@@ -1,0 +1,13 @@
+{
+  "name": "odoo-forge-bundle",
+  "version": "0.1.0",
+  "status": "scaffold",
+  "payload": {
+    "root": "./payload",
+    "skills": "./payload/skills",
+    "platforms": {
+      "claude": "./payload/platforms/claude",
+      "codex": "./payload/platforms/codex"
+    }
+  }
+}

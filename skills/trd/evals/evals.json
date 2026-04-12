@@ -1,0 +1,23 @@
+{
+  "skill_name": "trd",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "请基于经营管理域某个 EPIC 的 PRD 和 Solution，先确认模块拆分和模型来源，再给这个 EPIC 写一版 TRD，重点把 PRD 里的状态、规则和自动化动作翻成技术实现。",
+      "expected_output": "应触发 TRD 新建模式，读取全局资源、域级 Solution、当前 EPIC 的 PRD、待确认事项和 EPIC 页面，先做模块规划，再输出 PRD 到 TRD 的映射和技术设计。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "这个 EPIC 的 TRD 已经有了，现在 PRD 补了异常流和权限例外，请只更新受影响的业务逻辑、权限和测试章节，不要重写整篇。",
+      "expected_output": "应进入增量修订模式，优先读取已有 TRD 和最新 PRD，精准更新相关章节，并保持待确认事项同步。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "先别补别的，这次只把视图实现和数据文件讲清楚。涉及继承视图和几个复杂按钮，必要时查官方视图文档再更新 TRD。",
+      "expected_output": "应聚焦视图实现和数据文件章节，按需调用 view-dev 或 odoo18-docs，补充视图文件规划、关键区域实现、动作与数据文件说明。",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "模块搜索"
+  short_description: "搜索 Odoo 候选模块，返回模块名、简介、推荐级别和适用场景"
+  icon_small: "./assets/icon-small.svg"
+  icon_large: "./assets/icon-large.svg"
+  brand_color: "#714B67"

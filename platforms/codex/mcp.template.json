@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "flowus": {
+      "type": "stdio",
+      "command": "odoo-forge",
+      "args": [
+        "mcp",
+        "flowus"
+      ]
+    }
+  }
+}

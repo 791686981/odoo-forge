@@ -1,0 +1,3906 @@
+{
+  "applications": {
+    "hr.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr.html",
+      "title": ""
+    },
+    "sales.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales.html",
+      "title": ""
+    },
+    "general.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general.html",
+      "title": "General settings"
+    },
+    "essentials.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/essentials.html",
+      "title": "Odoo essentials"
+    },
+    "inventory_and_mrp.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp.html",
+      "title": ""
+    },
+    "productivity.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity.html",
+      "title": ""
+    },
+    "finance.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance.html",
+      "title": ""
+    },
+    "studio.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/studio.html",
+      "title": ""
+    },
+    "websites.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites.html",
+      "title": ""
+    },
+    "services.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services.html",
+      "title": ""
+    },
+    "marketing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing.html",
+      "title": ""
+    },
+    "studio/approval_rules.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/studio/approval_rules.html",
+      "title": "Approval rules"
+    },
+    "studio/fields.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/studio/fields.html",
+      "title": "Fields and widgets"
+    },
+    "studio/models_modules_apps.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/studio/models_modules_apps.html",
+      "title": "Models, modules, and apps"
+    },
+    "studio/views.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/studio/views.html",
+      "title": "Views"
+    },
+    "studio/pdf_reports.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/studio/pdf_reports.html",
+      "title": "PDF reports"
+    },
+    "studio/automated_actions.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/studio/automated_actions.html",
+      "title": ""
+    },
+    "studio/automated_actions/webhooks.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/studio/automated_actions/webhooks.html",
+      "title": "Webhooks"
+    },
+    "sales/sales.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales.html",
+      "title": ""
+    },
+    "sales/rental.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/rental.html",
+      "title": "Rental"
+    },
+    "sales/point_of_sale.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale.html",
+      "title": ""
+    },
+    "sales/members.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/members.html",
+      "title": ""
+    },
+    "sales/subscriptions.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/subscriptions.html",
+      "title": ""
+    },
+    "sales/crm.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm.html",
+      "title": ""
+    },
+    "sales/sales/gelato.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/gelato.html",
+      "title": "Gelato"
+    },
+    "sales/sales/invoicing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/invoicing.html",
+      "title": ""
+    },
+    "sales/sales/products_prices.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/products_prices.html",
+      "title": ""
+    },
+    "sales/sales/sales_quotations.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/sales_quotations.html",
+      "title": ""
+    },
+    "sales/sales/shopee_connector.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/shopee_connector.html",
+      "title": ""
+    },
+    "sales/sales/amazon_connector.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/amazon_connector.html",
+      "title": ""
+    },
+    "sales/sales/products_prices/returns.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/products_prices/returns.html",
+      "title": "Returns and refunds"
+    },
+    "sales/sales/products_prices/ewallets_giftcards.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/products_prices/ewallets_giftcards.html",
+      "title": "Use eWallets and gift cards"
+    },
+    "sales/sales/products_prices/prices.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/products_prices/prices.html",
+      "title": ""
+    },
+    "sales/sales/products_prices/products.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/products_prices/products.html",
+      "title": ""
+    },
+    "sales/sales/products_prices/loyalty_discount.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/products_prices/loyalty_discount.html",
+      "title": "Discount and loyalty programs"
+    },
+    "sales/sales/products_prices/prices/currencies.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/products_prices/prices/currencies.html",
+      "title": "Foreign currencies"
+    },
+    "sales/sales/products_prices/prices/pricing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/products_prices/prices/pricing.html",
+      "title": "Pricelists"
+    },
+    "sales/sales/products_prices/prices/discounts.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/products_prices/prices/discounts.html",
+      "title": "Discounts"
+    },
+    "sales/sales/products_prices/products/product_images.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/products_prices/products/product_images.html",
+      "title": "Product images with Google Images"
+    },
+    "sales/sales/products_prices/products/variants.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/products_prices/products/variants.html",
+      "title": "Product variants"
+    },
+    "sales/sales/products_prices/products/import.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/products_prices/products/import.html",
+      "title": "Import products"
+    },
+    "sales/sales/amazon_connector/setup.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/amazon_connector/setup.html",
+      "title": "Amazon Connector configuration"
+    },
+    "sales/sales/amazon_connector/features.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/amazon_connector/features.html",
+      "title": "Amazon Connector features"
+    },
+    "sales/sales/amazon_connector/manage.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/amazon_connector/manage.html",
+      "title": "Amazon order management"
+    },
+    "sales/sales/sales_quotations/get_paid_to_validate.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/sales_quotations/get_paid_to_validate.html",
+      "title": "Online payment order confirmation"
+    },
+    "sales/sales/sales_quotations/pdf_quote_builder.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/sales_quotations/pdf_quote_builder.html",
+      "title": "PDF quote builder"
+    },
+    "sales/sales/sales_quotations/get_signature_to_validate.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/sales_quotations/get_signature_to_validate.html",
+      "title": "Online signatures for order confirmations"
+    },
+    "sales/sales/sales_quotations/quote_template.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/sales_quotations/quote_template.html",
+      "title": "Quotation templates"
+    },
+    "sales/sales/sales_quotations/create_quotations.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/sales_quotations/create_quotations.html",
+      "title": "Create quotations"
+    },
+    "sales/sales/sales_quotations/optional_products.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/sales_quotations/optional_products.html",
+      "title": "Optional products"
+    },
+    "sales/sales/sales_quotations/orders_and_variants.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/sales_quotations/orders_and_variants.html",
+      "title": "Product variants on quotations and sales orders"
+    },
+    "sales/sales/sales_quotations/deadline.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/sales_quotations/deadline.html",
+      "title": "Quotation deadlines"
+    },
+    "sales/sales/sales_quotations/different_addresses.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/sales_quotations/different_addresses.html",
+      "title": "Deliveries and invoices to different addresses"
+    },
+    "sales/sales/shopee_connector/setup.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/shopee_connector/setup.html",
+      "title": "Shopee Connector configuration"
+    },
+    "sales/sales/shopee_connector/manage.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/shopee_connector/manage.html",
+      "title": "Shopee order management"
+    },
+    "sales/sales/invoicing/time_materials.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/invoicing/time_materials.html",
+      "title": "Invoicing based on time and materials"
+    },
+    "sales/sales/invoicing/expense.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/invoicing/expense.html",
+      "title": "Reinvoice expenses to customers"
+    },
+    "sales/sales/invoicing/invoicing_policy.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/invoicing/invoicing_policy.html",
+      "title": "Invoice based on delivered or ordered quantities"
+    },
+    "sales/sales/invoicing/down_payment.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/invoicing/down_payment.html",
+      "title": "Down payments"
+    },
+    "sales/sales/invoicing/proforma.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/invoicing/proforma.html",
+      "title": "Pro-forma invoices"
+    },
+    "sales/sales/invoicing/milestone.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/sales/invoicing/milestone.html",
+      "title": "Invoice project milestones"
+    },
+    "sales/crm/performance.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/performance.html",
+      "title": ""
+    },
+    "sales/crm/optimize.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/optimize.html",
+      "title": ""
+    },
+    "sales/crm/acquire_leads.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/acquire_leads.html",
+      "title": ""
+    },
+    "sales/crm/track_leads.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/track_leads.html",
+      "title": ""
+    },
+    "sales/crm/pipeline.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/pipeline.html",
+      "title": ""
+    },
+    "sales/crm/pipeline/merge_similar.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/pipeline/merge_similar.html",
+      "title": "Merge similar leads and opportunities"
+    },
+    "sales/crm/pipeline/manage_sales_teams.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/pipeline/manage_sales_teams.html",
+      "title": "Manage sales teams"
+    },
+    "sales/crm/pipeline/lost_opportunities.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/pipeline/lost_opportunities.html",
+      "title": "Lost opportunities"
+    },
+    "sales/crm/optimize/lead_enrichment.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/optimize/lead_enrichment.html",
+      "title": "Lead enrichment"
+    },
+    "sales/crm/optimize/partner_autocomplete.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/optimize/partner_autocomplete.html",
+      "title": "Enrich contacts with partner autocomplete"
+    },
+    "sales/crm/optimize/gamification.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/optimize/gamification.html",
+      "title": "CRM Gamification"
+    },
+    "sales/crm/optimize/utilize_activities.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/optimize/utilize_activities.html",
+      "title": "Utilize activities for sales teams"
+    },
+    "sales/crm/track_leads/unattended_leads_report.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/track_leads/unattended_leads_report.html",
+      "title": "Unattended leads report"
+    },
+    "sales/crm/track_leads/resellers.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/track_leads/resellers.html",
+      "title": "Resellers"
+    },
+    "sales/crm/track_leads/quality_leads_report.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/track_leads/quality_leads_report.html",
+      "title": "Quality leads report"
+    },
+    "sales/crm/track_leads/lead_scoring.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/track_leads/lead_scoring.html",
+      "title": "Assign leads with predictive lead scoring"
+    },
+    "sales/crm/track_leads/lead_distribution_report.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/track_leads/lead_distribution_report.html",
+      "title": "Lead distribution report"
+    },
+    "sales/crm/track_leads/marketing_attribution.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/track_leads/marketing_attribution.html",
+      "title": "Marketing attribution reports"
+    },
+    "sales/crm/acquire_leads/convert.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/acquire_leads/convert.html",
+      "title": "Convert leads into opportunities"
+    },
+    "sales/crm/acquire_leads/send_quotes.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/acquire_leads/send_quotes.html",
+      "title": "Create and send quotations"
+    },
+    "sales/crm/acquire_leads/lead_mining.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/acquire_leads/lead_mining.html",
+      "title": "Lead mining"
+    },
+    "sales/crm/acquire_leads/opportunities_form.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/acquire_leads/opportunities_form.html",
+      "title": "Create opportunities from web contact forms"
+    },
+    "sales/crm/acquire_leads/email_manual.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/acquire_leads/email_manual.html",
+      "title": "Create leads (from email or manually)"
+    },
+    "sales/crm/performance/win_loss.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/performance/win_loss.html",
+      "title": "Pipeline Analysis"
+    },
+    "sales/crm/performance/expected_revenue_report.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/performance/expected_revenue_report.html",
+      "title": "Expected revenue report"
+    },
+    "sales/crm/performance/forecast_report.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/crm/performance/forecast_report.html",
+      "title": "Forecast report"
+    },
+    "sales/subscriptions/closing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/subscriptions/closing.html",
+      "title": "Close subscriptions"
+    },
+    "sales/subscriptions/automatic_alerts.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/subscriptions/automatic_alerts.html",
+      "title": "Automation rules"
+    },
+    "sales/subscriptions/upselling.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/subscriptions/upselling.html",
+      "title": "Upsell subscriptions"
+    },
+    "sales/subscriptions/ecommerce.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/subscriptions/ecommerce.html",
+      "title": "Subscriptions in the eCommerce shop"
+    },
+    "sales/subscriptions/renewals.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/subscriptions/renewals.html",
+      "title": "Renew subscriptions"
+    },
+    "sales/subscriptions/plans.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/subscriptions/plans.html",
+      "title": "Subscription plans"
+    },
+    "sales/subscriptions/payment_providers.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/subscriptions/payment_providers.html",
+      "title": ""
+    },
+    "sales/subscriptions/products.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/subscriptions/products.html",
+      "title": "Subscription products"
+    },
+    "sales/subscriptions/scheduled_actions.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/subscriptions/scheduled_actions.html",
+      "title": "Scheduled actions"
+    },
+    "sales/subscriptions/reports.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/subscriptions/reports.html",
+      "title": "Subscription reports"
+    },
+    "sales/subscriptions/payment_providers/wire_transfer.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/subscriptions/payment_providers/wire_transfer.html",
+      "title": "Wire transfer"
+    },
+    "sales/point_of_sale/restaurant.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/restaurant.html",
+      "title": ""
+    },
+    "sales/point_of_sale/pos_based_marketing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/pos_based_marketing.html",
+      "title": "Marketing features"
+    },
+    "sales/point_of_sale/combos.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/combos.html",
+      "title": "Product combos"
+    },
+    "sales/point_of_sale/preparation.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/preparation.html",
+      "title": "Preparation display"
+    },
+    "sales/point_of_sale/self_order.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/self_order.html",
+      "title": "Self-ordering"
+    },
+    "sales/point_of_sale/pricing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/pricing.html",
+      "title": ""
+    },
+    "sales/point_of_sale/payment_methods.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/payment_methods.html",
+      "title": ""
+    },
+    "sales/point_of_sale/employee_login.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/employee_login.html",
+      "title": "Multi-employee management"
+    },
+    "sales/point_of_sale/configuration.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/configuration.html",
+      "title": ""
+    },
+    "sales/point_of_sale/online_food_delivery.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/online_food_delivery.html",
+      "title": "Online food delivery"
+    },
+    "sales/point_of_sale/shop.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/shop.html",
+      "title": ""
+    },
+    "sales/point_of_sale/receipts_invoices.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/receipts_invoices.html",
+      "title": "Receipts and invoices"
+    },
+    "sales/point_of_sale/reporting.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/reporting.html",
+      "title": "Reporting"
+    },
+    "sales/point_of_sale/restaurant/kitchen_printing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/restaurant/kitchen_printing.html",
+      "title": "Orders printing"
+    },
+    "sales/point_of_sale/restaurant/floors_tables.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/restaurant/floors_tables.html",
+      "title": "Floors and tables"
+    },
+    "sales/point_of_sale/restaurant/tips.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/restaurant/tips.html",
+      "title": "Tips"
+    },
+    "sales/point_of_sale/restaurant/bill_printing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/restaurant/bill_printing.html",
+      "title": "Bills"
+    },
+    "sales/point_of_sale/configuration/pos_iot.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/configuration/pos_iot.html",
+      "title": "IoT system connection"
+    },
+    "sales/point_of_sale/configuration/https.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/configuration/https.html",
+      "title": "Secure connection (HTTPS)"
+    },
+    "sales/point_of_sale/configuration/epos_printers.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/configuration/epos_printers.html",
+      "title": "ePOS printers"
+    },
+    "sales/point_of_sale/configuration/epos_ssc.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/configuration/epos_ssc.html",
+      "title": ""
+    },
+    "sales/point_of_sale/shop/serial_numbers.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/shop/serial_numbers.html",
+      "title": "Serial numbers and lots"
+    },
+    "sales/point_of_sale/shop/ship_later.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/shop/ship_later.html",
+      "title": "Ship later"
+    },
+    "sales/point_of_sale/shop/customer_display.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/shop/customer_display.html",
+      "title": "Customer display"
+    },
+    "sales/point_of_sale/shop/sales_order.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/shop/sales_order.html",
+      "title": "Sales orders"
+    },
+    "sales/point_of_sale/shop/barcode.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/shop/barcode.html",
+      "title": "Barcodes"
+    },
+    "sales/point_of_sale/payment_methods/qr_code_payment.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/payment_methods/qr_code_payment.html",
+      "title": "QR code payments"
+    },
+    "sales/point_of_sale/payment_methods/terminals.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/payment_methods/terminals.html",
+      "title": ""
+    },
+    "sales/point_of_sale/payment_methods/terminals/mercado_pago.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/payment_methods/terminals/mercado_pago.html",
+      "title": "Mercado Pago"
+    },
+    "sales/point_of_sale/payment_methods/terminals/tyro.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/payment_methods/terminals/tyro.html",
+      "title": "Tyro"
+    },
+    "sales/point_of_sale/payment_methods/terminals/ingenico.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/payment_methods/terminals/ingenico.html",
+      "title": "Ingenico"
+    },
+    "sales/point_of_sale/payment_methods/terminals/adyen.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/payment_methods/terminals/adyen.html",
+      "title": "Adyen"
+    },
+    "sales/point_of_sale/payment_methods/terminals/viva_wallet.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/payment_methods/terminals/viva_wallet.html",
+      "title": "Viva Wallet"
+    },
+    "sales/point_of_sale/payment_methods/terminals/razorpay.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/payment_methods/terminals/razorpay.html",
+      "title": "Razorpay"
+    },
+    "sales/point_of_sale/payment_methods/terminals/stripe.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/payment_methods/terminals/stripe.html",
+      "title": "Stripe"
+    },
+    "sales/point_of_sale/payment_methods/terminals/worldline.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/payment_methods/terminals/worldline.html",
+      "title": "Worldline"
+    },
+    "sales/point_of_sale/payment_methods/terminals/six.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/payment_methods/terminals/six.html",
+      "title": "SIX"
+    },
+    "sales/point_of_sale/pricing/cash_rounding.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/pricing/cash_rounding.html",
+      "title": "Cash rounding"
+    },
+    "sales/point_of_sale/pricing/loyalty.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/pricing/loyalty.html",
+      "title": "Loyalty programs"
+    },
+    "sales/point_of_sale/pricing/discount_tags.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/pricing/discount_tags.html",
+      "title": "Discount tags (barcode scanner)"
+    },
+    "sales/point_of_sale/pricing/discounts.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/pricing/discounts.html",
+      "title": "Discounts"
+    },
+    "sales/point_of_sale/pricing/electronic_labels.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/pricing/electronic_labels.html",
+      "title": "Electronic shelf labels"
+    },
+    "sales/point_of_sale/pricing/fiscal_position.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/pricing/fiscal_position.html",
+      "title": "Flexible taxes (fiscal positions)"
+    },
+    "sales/point_of_sale/pricing/pricelists.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/point_of_sale/pricing/pricelists.html",
+      "title": "Pricelists"
+    },
+    "sales/members/members_analysis.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/sales/members/members_analysis.html",
+      "title": "Members analysis"
+    },
+    "general/companies.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/companies.html",
+      "title": ""
+    },
+    "general/integrations.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/integrations.html",
+      "title": "Integrations"
+    },
+    "general/apps_modules.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/apps_modules.html",
+      "title": "Apps and modules"
+    },
+    "general/developer_mode.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/developer_mode.html",
+      "title": ""
+    },
+    "general/email_communication.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/email_communication.html",
+      "title": ""
+    },
+    "general/users.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/users.html",
+      "title": ""
+    },
+    "general/multi_company.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/multi_company.html",
+      "title": "Multi-company"
+    },
+    "general/iot.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/iot.html",
+      "title": ""
+    },
+    "general/email_communication/faq.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/email_communication/faq.html",
+      "title": "Common emailing issues and solutions"
+    },
+    "general/email_communication/mailjet_api.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/email_communication/mailjet_api.html",
+      "title": "Mailjet API"
+    },
+    "general/email_communication/email_servers_inbound.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/email_communication/email_servers_inbound.html",
+      "title": "Manage inbound messages"
+    },
+    "general/email_communication/google_oauth.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/email_communication/google_oauth.html",
+      "title": "Connect Gmail to Odoo using Google OAuth"
+    },
+    "general/email_communication/email_servers_outbound.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/email_communication/email_servers_outbound.html",
+      "title": "Manage outbound messages"
+    },
+    "general/email_communication/azure_oauth.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/email_communication/azure_oauth.html",
+      "title": "Connect Microsoft Outlook 365 to Odoo using Azure OAuth"
+    },
+    "general/email_communication/email_domain.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/email_communication/email_domain.html",
+      "title": "Configure DNS records to send emails in Odoo"
+    },
+    "general/iot/windows_iot.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/iot/windows_iot.html",
+      "title": "Windows virtual IoT"
+    },
+    "general/iot/devices.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/iot/devices.html",
+      "title": ""
+    },
+    "general/iot/connect.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/iot/connect.html",
+      "title": "IoT system connection to Odoo"
+    },
+    "general/iot/iot_box.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/iot/iot_box.html",
+      "title": "IoT box"
+    },
+    "general/iot/iot_advanced.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/iot/iot_advanced.html",
+      "title": ""
+    },
+    "general/iot/iot_advanced/updating_iot.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/iot/iot_advanced/updating_iot.html",
+      "title": "IoT system updates"
+    },
+    "general/iot/iot_advanced/https_certificate_iot.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/iot/iot_advanced/https_certificate_iot.html",
+      "title": ""
+    },
+    "general/iot/iot_advanced/ssh_connect.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/iot/iot_advanced/ssh_connect.html",
+      "title": "IoT box SSH connection"
+    },
+    "general/iot/devices/measurement_tool.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/iot/devices/measurement_tool.html",
+      "title": "Connect a measurement tool"
+    },
+    "general/iot/devices/screen.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/iot/devices/screen.html",
+      "title": "Connect a screen"
+    },
+    "general/iot/devices/scale.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/iot/devices/scale.html",
+      "title": "Connect a scale"
+    },
+    "general/iot/devices/camera.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/iot/devices/camera.html",
+      "title": "Connect a camera"
+    },
+    "general/iot/devices/printer.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/iot/devices/printer.html",
+      "title": "Connect a printer"
+    },
+    "general/iot/devices/footswitch.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/iot/devices/footswitch.html",
+      "title": "Connect a footswitch"
+    },
+    "general/integrations/google_translate.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/integrations/google_translate.html",
+      "title": "Google Translate"
+    },
+    "general/integrations/barcodelookup.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/integrations/barcodelookup.html",
+      "title": ""
+    },
+    "general/integrations/unsplash.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/integrations/unsplash.html",
+      "title": "Unsplash"
+    },
+    "general/integrations/mail_plugins.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/integrations/mail_plugins.html",
+      "title": ""
+    },
+    "general/integrations/geolocation.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/integrations/geolocation.html",
+      "title": "Geolocation"
+    },
+    "general/integrations/mail_plugins/outlook.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/integrations/mail_plugins/outlook.html",
+      "title": "Outlook Plugin"
+    },
+    "general/integrations/mail_plugins/gmail.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/integrations/mail_plugins/gmail.html",
+      "title": "Gmail Plugin"
+    },
+    "general/users/azure.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/users/azure.html",
+      "title": "Microsoft Azure sign-in authentication"
+    },
+    "general/users/2fa.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/users/2fa.html",
+      "title": "Two-factor authentication"
+    },
+    "general/users/language.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/users/language.html",
+      "title": "Change languages"
+    },
+    "general/users/portal.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/users/portal.html",
+      "title": "Portal access"
+    },
+    "general/users/ldap.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/users/ldap.html",
+      "title": "LDAP authentication"
+    },
+    "general/users/google.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/users/google.html",
+      "title": "Google Sign-In Authentication"
+    },
+    "general/users/facebook.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/users/facebook.html",
+      "title": "Facebook sign-in authentication"
+    },
+    "general/users/access_rights.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/users/access_rights.html",
+      "title": "Access rights"
+    },
+    "general/companies/digest_emails.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/companies/digest_emails.html",
+      "title": "Digest emails"
+    },
+    "general/companies/email_template.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/general/companies/email_template.html",
+      "title": "Email templates"
+    },
+    "hr/referrals.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/referrals.html",
+      "title": ""
+    },
+    "hr/lunch.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/lunch.html",
+      "title": ""
+    },
+    "hr/recruitment.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/recruitment.html",
+      "title": ""
+    },
+    "hr/fleet.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/fleet.html",
+      "title": ""
+    },
+    "hr/employees.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/employees.html",
+      "title": ""
+    },
+    "hr/appraisals.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/appraisals.html",
+      "title": ""
+    },
+    "hr/attendances.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/attendances.html",
+      "title": ""
+    },
+    "hr/frontdesk.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/frontdesk.html",
+      "title": ""
+    },
+    "hr/time_off.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/time_off.html",
+      "title": ""
+    },
+    "hr/payroll.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/payroll.html",
+      "title": ""
+    },
+    "hr/referrals/rewards.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/referrals/rewards.html",
+      "title": "Rewards"
+    },
+    "hr/referrals/points.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/referrals/points.html",
+      "title": "Referral points"
+    },
+    "hr/referrals/share_jobs.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/referrals/share_jobs.html",
+      "title": "Share job positions"
+    },
+    "hr/referrals/alerts.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/referrals/alerts.html",
+      "title": "Alerts"
+    },
+    "hr/referrals/reporting.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/referrals/reporting.html",
+      "title": "Reporting"
+    },
+    "hr/recruitment/team_performance.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/recruitment/team_performance.html",
+      "title": "Team performance reporting"
+    },
+    "hr/recruitment/recruitment_analysis.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/recruitment/recruitment_analysis.html",
+      "title": "Recruitment analysis"
+    },
+    "hr/recruitment/recruitment-flow.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/recruitment/recruitment-flow.html",
+      "title": "Recruitment flow"
+    },
+    "hr/recruitment/time_in_stage.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/recruitment/time_in_stage.html",
+      "title": "Time in stage analysis"
+    },
+    "hr/recruitment/schedule_interviews.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/recruitment/schedule_interviews.html",
+      "title": "Schedule interviews"
+    },
+    "hr/recruitment/source_analysis.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/recruitment/source_analysis.html",
+      "title": "Source analysis reporting"
+    },
+    "hr/recruitment/refuse_applicant.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/recruitment/refuse_applicant.html",
+      "title": "Refuse applicants"
+    },
+    "hr/recruitment/offer_job_positions.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/recruitment/offer_job_positions.html",
+      "title": "Offer job positions"
+    },
+    "hr/recruitment/add-new-applicants.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/recruitment/add-new-applicants.html",
+      "title": "Add new applicants"
+    },
+    "hr/recruitment/new_job.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/recruitment/new_job.html",
+      "title": "Job positions"
+    },
+    "hr/time_off/allocations.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/time_off/allocations.html",
+      "title": "Allocations"
+    },
+    "hr/time_off/management.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/time_off/management.html",
+      "title": "Management"
+    },
+    "hr/time_off/my_time.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/time_off/my_time.html",
+      "title": "My time"
+    },
+    "hr/time_off/request_time_off.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/time_off/request_time_off.html",
+      "title": "Request time off"
+    },
+    "hr/lunch/vendors.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/lunch/vendors.html",
+      "title": "Vendors"
+    },
+    "hr/lunch/management.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/lunch/management.html",
+      "title": "Lunch management"
+    },
+    "hr/lunch/user-accounts.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/lunch/user-accounts.html",
+      "title": "Manage user accounts"
+    },
+    "hr/lunch/products.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/lunch/products.html",
+      "title": "Products"
+    },
+    "hr/lunch/orders.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/lunch/orders.html",
+      "title": ""
+    },
+    "hr/frontdesk/visitors.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/frontdesk/visitors.html",
+      "title": "Visitors"
+    },
+    "hr/fleet/new_vehicle.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/fleet/new_vehicle.html",
+      "title": "New vehicles"
+    },
+    "hr/fleet/service.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/fleet/service.html",
+      "title": "Services"
+    },
+    "hr/fleet/accidents.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/fleet/accidents.html",
+      "title": "Accidents"
+    },
+    "hr/fleet/models.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/fleet/models.html",
+      "title": "Vehicle models"
+    },
+    "hr/payroll/contracts.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/payroll/contracts.html",
+      "title": "Contracts"
+    },
+    "hr/payroll/work_entry_analysis.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/payroll/work_entry_analysis.html",
+      "title": "Work entry analysis"
+    },
+    "hr/payroll/payroll_localizations.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/payroll/payroll_localizations.html",
+      "title": ""
+    },
+    "hr/payroll/salary_attachments.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/payroll/salary_attachments.html",
+      "title": "Salary attachments"
+    },
+    "hr/payroll/payslips.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/payroll/payslips.html",
+      "title": "Payslips"
+    },
+    "hr/payroll/reporting.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/payroll/reporting.html",
+      "title": "Reporting"
+    },
+    "hr/payroll/salary_attachment.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/payroll/salary_attachment.html",
+      "title": "Salary attachment report"
+    },
+    "hr/payroll/work_entries.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/payroll/work_entries.html",
+      "title": "Work entries"
+    },
+    "hr/payroll/payroll_localizations/hong_kong.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/payroll/payroll_localizations/hong_kong.html",
+      "title": "Hong Kong"
+    },
+    "hr/payroll/payroll_localizations/australia.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/payroll/payroll_localizations/australia.html",
+      "title": "Australia"
+    },
+    "hr/payroll/payroll_localizations/united_arab_emirates.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/payroll/payroll_localizations/united_arab_emirates.html",
+      "title": "United Arab Emirates"
+    },
+    "hr/payroll/payroll_localizations/belgium.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/payroll/payroll_localizations/belgium.html",
+      "title": "Belgium"
+    },
+    "hr/payroll/payroll_localizations/jordan.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/payroll/payroll_localizations/jordan.html",
+      "title": "Jordan"
+    },
+    "hr/appraisals/appraisal_analysis.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/appraisals/appraisal_analysis.html",
+      "title": "Appraisal analysis"
+    },
+    "hr/appraisals/skills_evolution.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/appraisals/skills_evolution.html",
+      "title": "Skills evolution"
+    },
+    "hr/appraisals/goals.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/appraisals/goals.html",
+      "title": "Goals"
+    },
+    "hr/appraisals/new_appraisals.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/appraisals/new_appraisals.html",
+      "title": "New appraisals"
+    },
+    "hr/attendances/check_in_check_out.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/attendances/check_in_check_out.html",
+      "title": "Check in and out"
+    },
+    "hr/attendances/kiosks.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/attendances/kiosks.html",
+      "title": "Kiosks"
+    },
+    "hr/attendances/hardware.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/attendances/hardware.html",
+      "title": "Hardware"
+    },
+    "hr/employees/equipment.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/employees/equipment.html",
+      "title": "Equipment"
+    },
+    "hr/employees/offboarding.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/employees/offboarding.html",
+      "title": "Offboarding"
+    },
+    "hr/employees/certifications.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/employees/certifications.html",
+      "title": "Certifications"
+    },
+    "hr/employees/new_employee.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/employees/new_employee.html",
+      "title": "New employees"
+    },
+    "hr/employees/departments.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/employees/departments.html",
+      "title": "Departments"
+    },
+    "hr/employees/retention_report.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/hr/employees/retention_report.html",
+      "title": "Employee retention report"
+    },
+    "marketing/social_marketing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/social_marketing.html",
+      "title": ""
+    },
+    "marketing/email_marketing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/email_marketing.html",
+      "title": ""
+    },
+    "marketing/marketing_automation.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/marketing_automation.html",
+      "title": ""
+    },
+    "marketing/sms_marketing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/sms_marketing.html",
+      "title": ""
+    },
+    "marketing/surveys.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/surveys.html",
+      "title": ""
+    },
+    "marketing/events.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/events.html",
+      "title": ""
+    },
+    "marketing/email_marketing/lost_leads_email.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/email_marketing/lost_leads_email.html",
+      "title": "Lost leads reactivation email"
+    },
+    "marketing/email_marketing/mailing_lists.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/email_marketing/mailing_lists.html",
+      "title": "Mailing lists"
+    },
+    "marketing/email_marketing/analyze_metrics.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/email_marketing/analyze_metrics.html",
+      "title": "Analyze metrics"
+    },
+    "marketing/email_marketing/unsubscriptions.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/email_marketing/unsubscriptions.html",
+      "title": "Manage unsubscriptions (blacklist)"
+    },
+    "marketing/marketing_automation/campaign_templates.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/marketing_automation/campaign_templates.html",
+      "title": ""
+    },
+    "marketing/marketing_automation/target_audience.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/marketing_automation/target_audience.html",
+      "title": "Audience targeting"
+    },
+    "marketing/marketing_automation/testing_running.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/marketing_automation/testing_running.html",
+      "title": "Testing/running campaigns"
+    },
+    "marketing/marketing_automation/understanding_metrics.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/marketing_automation/understanding_metrics.html",
+      "title": "Campaign metrics"
+    },
+    "marketing/marketing_automation/workflow_activities.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/marketing_automation/workflow_activities.html",
+      "title": "Campaign workflow activities"
+    },
+    "marketing/marketing_automation/campaign_templates/double_optin.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/marketing_automation/campaign_templates/double_optin.html",
+      "title": "Double Opt-in"
+    },
+    "marketing/social_marketing/social_campaigns.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/social_marketing/social_campaigns.html",
+      "title": "Social marketing campaigns"
+    },
+    "marketing/social_marketing/social_posts.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/social_marketing/social_posts.html",
+      "title": "Social posts"
+    },
+    "marketing/surveys/live_session.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/surveys/live_session.html",
+      "title": "Live Session surveys"
+    },
+    "marketing/surveys/analysis.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/surveys/analysis.html",
+      "title": "Survey analysis"
+    },
+    "marketing/surveys/questions.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/surveys/questions.html",
+      "title": "Create questions"
+    },
+    "marketing/surveys/create.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/surveys/create.html",
+      "title": "Create surveys"
+    },
+    "marketing/surveys/scoring.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/surveys/scoring.html",
+      "title": "Scoring surveys"
+    },
+    "marketing/sms_marketing/create_sms.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/sms_marketing/create_sms.html",
+      "title": "Create SMS messages"
+    },
+    "marketing/sms_marketing/pricing_and_faq.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/sms_marketing/pricing_and_faq.html",
+      "title": ""
+    },
+    "marketing/sms_marketing/sms_analysis.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/sms_marketing/sms_analysis.html",
+      "title": "SMS analysis"
+    },
+    "marketing/sms_marketing/marketing_campaigns.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/sms_marketing/marketing_campaigns.html",
+      "title": "SMS campaign settings"
+    },
+    "marketing/sms_marketing/mailing_lists_blacklists.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/sms_marketing/mailing_lists_blacklists.html",
+      "title": "Mailing lists and blacklists"
+    },
+    "marketing/events/event_booths.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/events/event_booths.html",
+      "title": "Event booths"
+    },
+    "marketing/events/revenues_report.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/events/revenues_report.html",
+      "title": "Revenues report"
+    },
+    "marketing/events/event_tracks.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/events/event_tracks.html",
+      "title": "Event tracks"
+    },
+    "marketing/events/create_events.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/events/create_events.html",
+      "title": "Create events"
+    },
+    "marketing/events/track_manage_talks.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/events/track_manage_talks.html",
+      "title": "Talks, proposals, and agenda"
+    },
+    "marketing/events/sell_tickets.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/events/sell_tickets.html",
+      "title": "Sell event tickets"
+    },
+    "marketing/events/event_templates.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/events/event_templates.html",
+      "title": "Event templates"
+    },
+    "marketing/events/registration_desk.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/marketing/events/registration_desk.html",
+      "title": "Registration Desk"
+    },
+    "finance/accounting.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting.html",
+      "title": ""
+    },
+    "finance/payment_providers.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/payment_providers.html",
+      "title": ""
+    },
+    "finance/expenses.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/expenses.html",
+      "title": ""
+    },
+    "finance/fiscal_localizations.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations.html",
+      "title": ""
+    },
+    "finance/accounting/payments.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/payments.html",
+      "title": ""
+    },
+    "finance/accounting/vendor_bills.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/vendor_bills.html",
+      "title": ""
+    },
+    "finance/accounting/taxes.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/taxes.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices.html",
+      "title": ""
+    },
+    "finance/accounting/get_started.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/get_started.html",
+      "title": ""
+    },
+    "finance/accounting/reporting.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/reporting.html",
+      "title": ""
+    },
+    "finance/accounting/bank.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/bank.html",
+      "title": ""
+    },
+    "finance/accounting/reporting/silverfin.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/reporting/silverfin.html",
+      "title": "Silverfin integration"
+    },
+    "finance/accounting/reporting/year_end.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/reporting/year_end.html",
+      "title": "Year-end closing"
+    },
+    "finance/accounting/reporting/tax_carryover.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/reporting/tax_carryover.html",
+      "title": "Tax carryover"
+    },
+    "finance/accounting/reporting/analytic_accounting.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/reporting/analytic_accounting.html",
+      "title": "Analytic accounting"
+    },
+    "finance/accounting/reporting/budget.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/reporting/budget.html",
+      "title": "Budgets"
+    },
+    "finance/accounting/reporting/intrastat.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/reporting/intrastat.html",
+      "title": "Intrastat"
+    },
+    "finance/accounting/reporting/data_inalterability.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/reporting/data_inalterability.html",
+      "title": "Data inalterability check report"
+    },
+    "finance/accounting/reporting/tax_returns.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/reporting/tax_returns.html",
+      "title": "Tax return (VAT declaration)"
+    },
+    "finance/accounting/reporting/customize.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/reporting/customize.html",
+      "title": "Custom reports"
+    },
+    "finance/accounting/payments/online.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/payments/online.html",
+      "title": ""
+    },
+    "finance/accounting/payments/batch.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/payments/batch.html",
+      "title": "Batch payments by bank deposit"
+    },
+    "finance/accounting/payments/batch_sdd.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/payments/batch_sdd.html",
+      "title": "Batch payments: SEPA Direct Debit (SDD)"
+    },
+    "finance/accounting/payments/checks.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/payments/checks.html",
+      "title": "Checks"
+    },
+    "finance/accounting/payments/pay_checks.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/payments/pay_checks.html",
+      "title": "Pay by checks"
+    },
+    "finance/accounting/payments/pay_sepa.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/payments/pay_sepa.html",
+      "title": "Pay with SEPA"
+    },
+    "finance/accounting/payments/forecast.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/payments/forecast.html",
+      "title": "Forecast future bills to pay"
+    },
+    "finance/accounting/payments/trusted_accounts.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/payments/trusted_accounts.html",
+      "title": "Trusted accounts (send money)"
+    },
+    "finance/accounting/payments/follow_up.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/payments/follow_up.html",
+      "title": "Follow-up on invoices"
+    },
+    "finance/accounting/payments/online/install_portal_patch.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/payments/online/install_portal_patch.html",
+      "title": "Install the patch to disable online invoice payment"
+    },
+    "finance/accounting/customer_invoices/deferred_revenues.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/deferred_revenues.html",
+      "title": "Deferred revenues"
+    },
+    "finance/accounting/customer_invoices/epc_qr_code.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/epc_qr_code.html",
+      "title": "EPC QR codes"
+    },
+    "finance/accounting/customer_invoices/cash_rounding.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/cash_rounding.html",
+      "title": "Cash rounding"
+    },
+    "finance/accounting/customer_invoices/terms_conditions.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/terms_conditions.html",
+      "title": "Default terms and conditions (T&C)"
+    },
+    "finance/accounting/customer_invoices/payment_terms.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/payment_terms.html",
+      "title": "Payment terms and installment plans"
+    },
+    "finance/accounting/customer_invoices/incoterms.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/incoterms.html",
+      "title": "Incoterms"
+    },
+    "finance/accounting/customer_invoices/credit_notes.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/credit_notes.html",
+      "title": "Credit notes and refunds"
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing.html",
+      "title": "Electronic invoicing (:abbr:`EDI (electronic data interchange)`)"
+    },
+    "finance/accounting/customer_invoices/snailmail.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/snailmail.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/customer_addresses.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/customer_addresses.html",
+      "title": "Delivery and invoice addresses"
+    },
+    "finance/accounting/customer_invoices/overview.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/overview.html",
+      "title": "Invoicing processes"
+    },
+    "finance/accounting/customer_invoices/sequence.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/sequence.html",
+      "title": "Invoice sequence"
+    },
+    "finance/accounting/customer_invoices/cash_discounts.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/cash_discounts.html",
+      "title": "Cash discounts and tax reduction"
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/romania.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/romania.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/ireland.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/ireland.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/spain.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/spain.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/slovenia.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/slovenia.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/italy.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/italy.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/peru.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/peru.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/brazil.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/brazil.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/colombia.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/colombia.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/uruguay.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/uruguay.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/portugal.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/portugal.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/argentina.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/argentina.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/poland.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/poland.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/mexico.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/mexico.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/norway.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/norway.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/hungary.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/hungary.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/latvia.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/latvia.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/luxembourg.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/luxembourg.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/lithuania.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/lithuania.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/denmark.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/denmark.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/estonia.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/estonia.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/finland.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/finland.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/croatia.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/croatia.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/netherlands.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/netherlands.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/france.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/france.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/basque_country.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/basque_country.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/ecuador.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/ecuador.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/belgium.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/belgium.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/germany.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/germany.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/austria.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/austria.html",
+      "title": ""
+    },
+    "finance/accounting/customer_invoices/electronic_invoicing/chile.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/customer_invoices/electronic_invoicing/chile.html",
+      "title": ""
+    },
+    "finance/accounting/bank/bank_synchronization.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/bank/bank_synchronization.html",
+      "title": ""
+    },
+    "finance/accounting/bank/reconciliation_models.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/bank/reconciliation_models.html",
+      "title": "Reconciliation models"
+    },
+    "finance/accounting/bank/foreign_currency.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/bank/foreign_currency.html",
+      "title": "Manage a bank account in a foreign currency"
+    },
+    "finance/accounting/bank/reconciliation.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/bank/reconciliation.html",
+      "title": "Bank reconciliation"
+    },
+    "finance/accounting/bank/loans.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/bank/loans.html",
+      "title": "Loans management"
+    },
+    "finance/accounting/bank/transactions.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/bank/transactions.html",
+      "title": "Transactions"
+    },
+    "finance/accounting/bank/internal_transfers.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/bank/internal_transfers.html",
+      "title": "Internal transfers"
+    },
+    "finance/accounting/bank/bank_synchronization/saltedge.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/bank/bank_synchronization/saltedge.html",
+      "title": "Salt Edge"
+    },
+    "finance/accounting/bank/bank_synchronization/ponto.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/bank/bank_synchronization/ponto.html",
+      "title": "Ponto"
+    },
+    "finance/accounting/bank/bank_synchronization/enablebanking.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/bank/bank_synchronization/enablebanking.html",
+      "title": "Enable Banking"
+    },
+    "finance/accounting/get_started/multi_currency.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/get_started/multi_currency.html",
+      "title": "Multi-currency system"
+    },
+    "finance/accounting/get_started/chart_of_accounts.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/get_started/chart_of_accounts.html",
+      "title": "Chart of accounts"
+    },
+    "finance/accounting/get_started/consolidation.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/get_started/consolidation.html",
+      "title": "Consolidation"
+    },
+    "finance/accounting/get_started/avg_price_valuation.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/get_started/avg_price_valuation.html",
+      "title": "Average price on returned goods"
+    },
+    "finance/accounting/get_started/tax_units.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/get_started/tax_units.html",
+      "title": "Tax units"
+    },
+    "finance/accounting/get_started/cheat_sheet.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/get_started/cheat_sheet.html",
+      "title": ""
+    },
+    "finance/accounting/vendor_bills/invoice_digitization.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/vendor_bills/invoice_digitization.html",
+      "title": "AI-powered document digitization"
+    },
+    "finance/accounting/vendor_bills/deferred_expenses.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/vendor_bills/deferred_expenses.html",
+      "title": "Deferred expenses"
+    },
+    "finance/accounting/vendor_bills/assets.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/vendor_bills/assets.html",
+      "title": "Non-current assets and fixed assets"
+    },
+    "finance/accounting/vendor_bills/sequence.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/vendor_bills/sequence.html",
+      "title": "Vendor bill sequence"
+    },
+    "finance/accounting/taxes/B2B_B2C.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/taxes/B2B_B2C.html",
+      "title": "B2B (tax excluded) and B2C (tax included) pricing"
+    },
+    "finance/accounting/taxes/vat_verification.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/taxes/vat_verification.html",
+      "title": "VAT numbers verification (VIES)"
+    },
+    "finance/accounting/taxes/cash_basis.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/taxes/cash_basis.html",
+      "title": "Cash basis taxes"
+    },
+    "finance/accounting/taxes/eu_distance_selling.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/taxes/eu_distance_selling.html",
+      "title": "EU intra-community distance selling"
+    },
+    "finance/accounting/taxes/avatax.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/taxes/avatax.html",
+      "title": ""
+    },
+    "finance/accounting/taxes/fiscal_positions.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/taxes/fiscal_positions.html",
+      "title": "Fiscal positions (tax and account mapping)"
+    },
+    "finance/accounting/taxes/retention.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/taxes/retention.html",
+      "title": "Withholding taxes"
+    },
+    "finance/accounting/taxes/avatax/avatax_use.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/taxes/avatax/avatax_use.html",
+      "title": "AvaTax use"
+    },
+    "finance/accounting/taxes/avatax/avalara_portal.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/accounting/taxes/avatax/avalara_portal.html",
+      "title": ""
+    },
+    "finance/expenses/post_expenses.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/expenses/post_expenses.html",
+      "title": "Post expenses"
+    },
+    "finance/expenses/reimburse.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/expenses/reimburse.html",
+      "title": "Reimburse employees"
+    },
+    "finance/expenses/log_expenses.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/expenses/log_expenses.html",
+      "title": "Log expenses"
+    },
+    "finance/expenses/approve_expenses.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/expenses/approve_expenses.html",
+      "title": "Approve expenses"
+    },
+    "finance/expenses/expense_reports.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/expenses/expense_reports.html",
+      "title": "Expense reports"
+    },
+    "finance/expenses/reinvoice_expenses.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/expenses/reinvoice_expenses.html",
+      "title": "Re-invoice expenses"
+    },
+    "finance/fiscal_localizations/new_zealand.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/new_zealand.html",
+      "title": "New Zealand"
+    },
+    "finance/fiscal_localizations/romania.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/romania.html",
+      "title": "Romania"
+    },
+    "finance/fiscal_localizations/vietnam.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/vietnam.html",
+      "title": "Vietnam"
+    },
+    "finance/fiscal_localizations/thailand.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/thailand.html",
+      "title": "Thailand"
+    },
+    "finance/fiscal_localizations/philippines.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/philippines.html",
+      "title": "Philippines"
+    },
+    "finance/fiscal_localizations/hong_kong.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/hong_kong.html",
+      "title": "Hong Kong"
+    },
+    "finance/fiscal_localizations/australia.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/australia.html",
+      "title": "Australia"
+    },
+    "finance/fiscal_localizations/employment_hero.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/employment_hero.html",
+      "title": "Employment Hero Payroll"
+    },
+    "finance/fiscal_localizations/spain.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/spain.html",
+      "title": "Spain"
+    },
+    "finance/fiscal_localizations/italy.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/italy.html",
+      "title": "Italy"
+    },
+    "finance/fiscal_localizations/malaysia.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/malaysia.html",
+      "title": "Malaysia"
+    },
+    "finance/fiscal_localizations/peru.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/peru.html",
+      "title": "Peru"
+    },
+    "finance/fiscal_localizations/egypt.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/egypt.html",
+      "title": "Egypt"
+    },
+    "finance/fiscal_localizations/india.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/india.html",
+      "title": "India"
+    },
+    "finance/fiscal_localizations/brazil.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/brazil.html",
+      "title": "Brazil"
+    },
+    "finance/fiscal_localizations/colombia.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/colombia.html",
+      "title": "Colombia"
+    },
+    "finance/fiscal_localizations/uruguay.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/uruguay.html",
+      "title": "Uruguay"
+    },
+    "finance/fiscal_localizations/argentina.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/argentina.html",
+      "title": "Argentina"
+    },
+    "finance/fiscal_localizations/canada.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/canada.html",
+      "title": "Canada"
+    },
+    "finance/fiscal_localizations/mexico.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/mexico.html",
+      "title": "Mexico"
+    },
+    "finance/fiscal_localizations/indonesia.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/indonesia.html",
+      "title": "Indonesia"
+    },
+    "finance/fiscal_localizations/united_states.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/united_states.html",
+      "title": "United States"
+    },
+    "finance/fiscal_localizations/switzerland.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/switzerland.html",
+      "title": "Switzerland"
+    },
+    "finance/fiscal_localizations/singapore.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/singapore.html",
+      "title": "Singapore"
+    },
+    "finance/fiscal_localizations/luxembourg.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/luxembourg.html",
+      "title": "Luxembourg"
+    },
+    "finance/fiscal_localizations/denmark.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/denmark.html",
+      "title": "Denmark"
+    },
+    "finance/fiscal_localizations/saudi_arabia.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/saudi_arabia.html",
+      "title": "Saudi Arabia"
+    },
+    "finance/fiscal_localizations/united_arab_emirates.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/united_arab_emirates.html",
+      "title": "United Arab Emirates"
+    },
+    "finance/fiscal_localizations/netherlands.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/netherlands.html",
+      "title": "Netherlands"
+    },
+    "finance/fiscal_localizations/france.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/france.html",
+      "title": "France"
+    },
+    "finance/fiscal_localizations/kenya.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/kenya.html",
+      "title": "Kenya"
+    },
+    "finance/fiscal_localizations/ecuador.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/ecuador.html",
+      "title": "Ecuador"
+    },
+    "finance/fiscal_localizations/belgium.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/belgium.html",
+      "title": "Belgium"
+    },
+    "finance/fiscal_localizations/united_kingdom.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/united_kingdom.html",
+      "title": "United Kingdom"
+    },
+    "finance/fiscal_localizations/germany.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/germany.html",
+      "title": "Germany"
+    },
+    "finance/fiscal_localizations/austria.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/austria.html",
+      "title": "Austria"
+    },
+    "finance/fiscal_localizations/chile.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/chile.html",
+      "title": "Chile"
+    },
+    "finance/fiscal_localizations/jordan.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/fiscal_localizations/jordan.html",
+      "title": "Jordan"
+    },
+    "finance/payment_providers/paypal.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/payment_providers/paypal.html",
+      "title": "PayPal"
+    },
+    "finance/payment_providers/mercado_pago.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/payment_providers/mercado_pago.html",
+      "title": "Mercado Pago"
+    },
+    "finance/payment_providers/amazon_payment_services.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/payment_providers/amazon_payment_services.html",
+      "title": "Amazon Payment Services"
+    },
+    "finance/payment_providers/buckaroo.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/payment_providers/buckaroo.html",
+      "title": "Buckaroo"
+    },
+    "finance/payment_providers/wire_transfer.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/payment_providers/wire_transfer.html",
+      "title": "Wire transfers"
+    },
+    "finance/payment_providers/authorize.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/payment_providers/authorize.html",
+      "title": "Authorize.Net"
+    },
+    "finance/payment_providers/flutterwave.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/payment_providers/flutterwave.html",
+      "title": "Flutterwave"
+    },
+    "finance/payment_providers/xendit.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/payment_providers/xendit.html",
+      "title": "Xendit"
+    },
+    "finance/payment_providers/adyen.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/payment_providers/adyen.html",
+      "title": "Adyen"
+    },
+    "finance/payment_providers/nuvei.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/payment_providers/nuvei.html",
+      "title": "Nuvei"
+    },
+    "finance/payment_providers/razorpay.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/payment_providers/razorpay.html",
+      "title": "Razorpay"
+    },
+    "finance/payment_providers/mollie.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/payment_providers/mollie.html",
+      "title": "Mollie"
+    },
+    "finance/payment_providers/asiapay.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/payment_providers/asiapay.html",
+      "title": "AsiaPay"
+    },
+    "finance/payment_providers/stripe.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/payment_providers/stripe.html",
+      "title": "Stripe"
+    },
+    "finance/payment_providers/demo.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/payment_providers/demo.html",
+      "title": "Demo"
+    },
+    "finance/payment_providers/worldline.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/finance/payment_providers/worldline.html",
+      "title": "Worldline"
+    },
+    "inventory_and_mrp/repairs.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/repairs.html",
+      "title": ""
+    },
+    "inventory_and_mrp/quality.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/quality.html",
+      "title": ""
+    },
+    "inventory_and_mrp/plm.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/plm.html",
+      "title": ""
+    },
+    "inventory_and_mrp/inventory.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory.html",
+      "title": ""
+    },
+    "inventory_and_mrp/purchase.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/purchase.html",
+      "title": ""
+    },
+    "inventory_and_mrp/maintenance.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/maintenance.html",
+      "title": ""
+    },
+    "inventory_and_mrp/manufacturing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing.html",
+      "title": ""
+    },
+    "inventory_and_mrp/barcode.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/barcode.html",
+      "title": ""
+    },
+    "inventory_and_mrp/plm/management.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/plm/management.html",
+      "title": "Project management"
+    },
+    "inventory_and_mrp/plm/manage_changes.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/plm/manage_changes.html",
+      "title": "Change management"
+    },
+    "inventory_and_mrp/plm/manage_changes/engineering_change_orders.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/plm/manage_changes/engineering_change_orders.html",
+      "title": "Engineering change orders"
+    },
+    "inventory_and_mrp/plm/manage_changes/eco_type.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/plm/manage_changes/eco_type.html",
+      "title": ""
+    },
+    "inventory_and_mrp/plm/manage_changes/version_control.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/plm/manage_changes/version_control.html",
+      "title": "Version control"
+    },
+    "inventory_and_mrp/plm/management/approvals.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/plm/management/approvals.html",
+      "title": "Approvals"
+    },
+    "inventory_and_mrp/quality/quality_check_types.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/quality/quality_check_types.html",
+      "title": ""
+    },
+    "inventory_and_mrp/quality/quality_management.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/quality/quality_management.html",
+      "title": ""
+    },
+    "inventory_and_mrp/quality/quality_management/quality_checks.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/quality/quality_management/quality_checks.html",
+      "title": "Quality checks"
+    },
+    "inventory_and_mrp/quality/quality_management/quality_control_points.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/quality/quality_management/quality_control_points.html",
+      "title": "Quality control points"
+    },
+    "inventory_and_mrp/quality/quality_management/failure_locations.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/quality/quality_management/failure_locations.html",
+      "title": "Failure locations"
+    },
+    "inventory_and_mrp/quality/quality_management/quality_alerts.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/quality/quality_management/quality_alerts.html",
+      "title": "Quality alerts"
+    },
+    "inventory_and_mrp/quality/quality_check_types/instructions_check.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/quality/quality_check_types/instructions_check.html",
+      "title": "Instructions quality check"
+    },
+    "inventory_and_mrp/quality/quality_check_types/picture_check.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/quality/quality_check_types/picture_check.html",
+      "title": "Take a Picture quality check"
+    },
+    "inventory_and_mrp/quality/quality_check_types/measure_check.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/quality/quality_check_types/measure_check.html",
+      "title": "Measure quality check"
+    },
+    "inventory_and_mrp/quality/quality_check_types/pass_fail_check.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/quality/quality_check_types/pass_fail_check.html",
+      "title": "Pass - Fail quality check"
+    },
+    "inventory_and_mrp/repairs/repair_orders.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/repairs/repair_orders.html",
+      "title": "Process repair orders"
+    },
+    "inventory_and_mrp/manufacturing/workflows.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/workflows.html",
+      "title": ""
+    },
+    "inventory_and_mrp/manufacturing/subcontracting.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/subcontracting.html",
+      "title": ""
+    },
+    "inventory_and_mrp/manufacturing/advanced_configuration.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/advanced_configuration.html",
+      "title": ""
+    },
+    "inventory_and_mrp/manufacturing/basic_setup.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/basic_setup.html",
+      "title": ""
+    },
+    "inventory_and_mrp/manufacturing/shop_floor.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/shop_floor.html",
+      "title": ""
+    },
+    "inventory_and_mrp/manufacturing/reporting.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/reporting.html",
+      "title": "Reporting"
+    },
+    "inventory_and_mrp/manufacturing/shop_floor/shop_floor_tracking.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/shop_floor/shop_floor_tracking.html",
+      "title": "Shop Floor time tracking"
+    },
+    "inventory_and_mrp/manufacturing/shop_floor/shop_floor_overview.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/shop_floor/shop_floor_overview.html",
+      "title": "Shop Floor overview"
+    },
+    "inventory_and_mrp/manufacturing/reporting/oee.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/reporting/oee.html",
+      "title": "Overall equipment effectiveness"
+    },
+    "inventory_and_mrp/manufacturing/reporting/allocation.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/reporting/allocation.html",
+      "title": "Allocation reports"
+    },
+    "inventory_and_mrp/manufacturing/reporting/production_analysis.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/reporting/production_analysis.html",
+      "title": "Production analysis"
+    },
+    "inventory_and_mrp/manufacturing/workflows/use_mps.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/workflows/use_mps.html",
+      "title": "Master production schedule"
+    },
+    "inventory_and_mrp/manufacturing/workflows/scrap_manufacturing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/workflows/scrap_manufacturing.html",
+      "title": "Scrap during manufacturing"
+    },
+    "inventory_and_mrp/manufacturing/workflows/byproducts.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/workflows/byproducts.html",
+      "title": "By-Products"
+    },
+    "inventory_and_mrp/manufacturing/workflows/manufacturing_backorders.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/workflows/manufacturing_backorders.html",
+      "title": "Manufacturing backorders"
+    },
+    "inventory_and_mrp/manufacturing/workflows/manufacture_lots_serials.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/workflows/manufacture_lots_serials.html",
+      "title": "Manufacture with lots and serial numbers"
+    },
+    "inventory_and_mrp/manufacturing/workflows/continuous_improvement.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/workflows/continuous_improvement.html",
+      "title": "Continuous product improvement"
+    },
+    "inventory_and_mrp/manufacturing/workflows/work_center_time_off.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/workflows/work_center_time_off.html",
+      "title": "Work center time off"
+    },
+    "inventory_and_mrp/manufacturing/workflows/split_merge.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/workflows/split_merge.html",
+      "title": "Split and merge manufacturing orders"
+    },
+    "inventory_and_mrp/manufacturing/workflows/unbuild_orders.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/workflows/unbuild_orders.html",
+      "title": "Unbuild orders"
+    },
+    "inventory_and_mrp/manufacturing/subcontracting/resupply_subcontracting_lead_times.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/subcontracting/resupply_subcontracting_lead_times.html",
+      "title": "Resupply subcontracting lead times"
+    },
+    "inventory_and_mrp/manufacturing/subcontracting/subcontracting_basic.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_basic.html",
+      "title": "Basic subcontracting"
+    },
+    "inventory_and_mrp/manufacturing/subcontracting/subcontracting_dropship.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_dropship.html",
+      "title": "Dropship to subcontractor"
+    },
+    "inventory_and_mrp/manufacturing/subcontracting/basic_subcontracting_lead_times.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/subcontracting/basic_subcontracting_lead_times.html",
+      "title": "Basic subcontracting lead times"
+    },
+    "inventory_and_mrp/manufacturing/subcontracting/dropship_subcontracting_lead_times.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/subcontracting/dropship_subcontracting_lead_times.html",
+      "title": "Dropship subcontracting lead times"
+    },
+    "inventory_and_mrp/manufacturing/subcontracting/subcontracting_resupply.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/subcontracting/subcontracting_resupply.html",
+      "title": "Resupply subcontractor"
+    },
+    "inventory_and_mrp/manufacturing/advanced_configuration/work_order_dependencies.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/advanced_configuration/work_order_dependencies.html",
+      "title": "Work order dependencies"
+    },
+    "inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.html",
+      "title": "Work centers"
+    },
+    "inventory_and_mrp/manufacturing/advanced_configuration/sub_assemblies.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/advanced_configuration/sub_assemblies.html",
+      "title": "Multilevel BoMs"
+    },
+    "inventory_and_mrp/manufacturing/advanced_configuration/kit_shipping.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/advanced_configuration/kit_shipping.html",
+      "title": "Kits"
+    },
+    "inventory_and_mrp/manufacturing/advanced_configuration/product_variants.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/advanced_configuration/product_variants.html",
+      "title": "Managing BoMs for product variants"
+    },
+    "inventory_and_mrp/manufacturing/basic_setup/configure_manufacturing_product.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/basic_setup/configure_manufacturing_product.html",
+      "title": "Manufacturing product configuration"
+    },
+    "inventory_and_mrp/manufacturing/basic_setup/mo_costs.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/basic_setup/mo_costs.html",
+      "title": "Manufacturing order costs"
+    },
+    "inventory_and_mrp/manufacturing/basic_setup/bill_configuration.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/basic_setup/bill_configuration.html",
+      "title": "Bill of materials"
+    },
+    "inventory_and_mrp/manufacturing/basic_setup/two_step_manufacturing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/basic_setup/two_step_manufacturing.html",
+      "title": "Two-step manufacturing"
+    },
+    "inventory_and_mrp/manufacturing/basic_setup/one_step_manufacturing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/basic_setup/one_step_manufacturing.html",
+      "title": "One-step manufacturing"
+    },
+    "inventory_and_mrp/manufacturing/basic_setup/three_step_manufacturing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/manufacturing/basic_setup/three_step_manufacturing.html",
+      "title": "Three-step manufacturing"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving.html",
+      "title": ""
+    },
+    "inventory_and_mrp/inventory/warehouses_storage.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage.html",
+      "title": ""
+    },
+    "inventory_and_mrp/inventory/product_management.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/product_management.html",
+      "title": ""
+    },
+    "inventory_and_mrp/inventory/warehouses_storage/inventory_management.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management.html",
+      "title": ""
+    },
+    "inventory_and_mrp/inventory/warehouses_storage/reporting.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage/reporting.html",
+      "title": ""
+    },
+    "inventory_and_mrp/inventory/warehouses_storage/replenishment.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage/replenishment.html",
+      "title": ""
+    },
+    "inventory_and_mrp/inventory/warehouses_storage/reporting/moves_history.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage/reporting/moves_history.html",
+      "title": "Moves history dashboard"
+    },
+    "inventory_and_mrp/inventory/warehouses_storage/reporting/stock.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage/reporting/stock.html",
+      "title": "Stock report"
+    },
+    "inventory_and_mrp/inventory/warehouses_storage/reporting/forecast.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage/reporting/forecast.html",
+      "title": "Forecasted report"
+    },
+    "inventory_and_mrp/inventory/warehouses_storage/reporting/aging.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage/reporting/aging.html",
+      "title": "Stock valuation dashboard"
+    },
+    "inventory_and_mrp/inventory/warehouses_storage/reporting/locations.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage/reporting/locations.html",
+      "title": "Locations dashboard"
+    },
+    "inventory_and_mrp/inventory/warehouses_storage/inventory_management/count_products.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/count_products.html",
+      "title": "Inventory adjustments"
+    },
+    "inventory_and_mrp/inventory/warehouses_storage/inventory_management/product_catalog.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/product_catalog.html",
+      "title": "Product catalog"
+    },
+    "inventory_and_mrp/inventory/warehouses_storage/inventory_management/cycle_counts.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/cycle_counts.html",
+      "title": "Cycle counts"
+    },
+    "inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses.html",
+      "title": "Warehouses"
+    },
+    "inventory_and_mrp/inventory/warehouses_storage/inventory_management/scrap_inventory.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/scrap_inventory.html",
+      "title": "Scrap inventory"
+    },
+    "inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations.html",
+      "title": "Locations"
+    },
+    "inventory_and_mrp/inventory/warehouses_storage/replenishment/report.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/report.html",
+      "title": "Replenishment report"
+    },
+    "inventory_and_mrp/inventory/warehouses_storage/replenishment/mto.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/mto.html",
+      "title": "Replenish on order (MTO)"
+    },
+    "inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.html",
+      "title": "Reordering rules"
+    },
+    "inventory_and_mrp/inventory/warehouses_storage/replenishment/lead_times.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/lead_times.html",
+      "title": "Lead times"
+    },
+    "inventory_and_mrp/inventory/warehouses_storage/replenishment/resupply_warehouses.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/resupply_warehouses.html",
+      "title": "Inter-warehouse replenishment"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/setup_configuration.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration.html",
+      "title": ""
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/reservation_methods.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods.html",
+      "title": ""
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/removal_strategies.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies.html",
+      "title": ""
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/picking_methods.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods.html",
+      "title": ""
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/daily_operations.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations.html",
+      "title": ""
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/setup_configuration/starshipit_shipping.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/starshipit_shipping.html",
+      "title": "Starshipit shipping"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dhl_credentials.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dhl_credentials.html",
+      "title": "DHL integration"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/setup_configuration/cancel.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/cancel.html",
+      "title": "How to cancel a shipping request to a shipper?"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing.html",
+      "title": "Shipping cost invoicing"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/setup_configuration/fedex.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/fedex.html",
+      "title": "FedEx integration"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/setup_configuration/bpost.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/bpost.html",
+      "title": "Bpost integration"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/setup_configuration/zebra.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/zebra.html",
+      "title": "Zebra label configuration"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/setup_configuration/multipack.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/multipack.html",
+      "title": "Multi-package shipments"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.html",
+      "title": "Third-party shipping carriers"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/setup_configuration/new_delivery_method.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/new_delivery_method.html",
+      "title": "Add a new delivery method"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping.html",
+      "title": "Sendcloud integration"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/setup_configuration/ups_credentials.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/ups_credentials.html",
+      "title": "UPS integration"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/setup_configuration/print_on_validation.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/print_on_validation.html",
+      "title": "Printable delivery PDFs"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.html",
+      "title": "Print shipping labels"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/setup_configuration/label_type.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/label_type.html",
+      "title": "Change shipping label size"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/setup_configuration/envia_shipping.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/envia_shipping.html",
+      "title": "Envia.com integration"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.html",
+      "title": "Dispatch management system"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/daily_operations/cross_dock.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/cross_dock.html",
+      "title": "Organize a cross-dock in a warehouse"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/daily_operations/stock_warehouses.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/stock_warehouses.html",
+      "title": "Sell stock from multiple warehouses using virtual locations"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/daily_operations/use_routes.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/use_routes.html",
+      "title": "Routes and push/pull rules"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/daily_operations/owned_stock.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/owned_stock.html",
+      "title": "Consignment: buy and sell stock without owning it"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/daily_operations/putaway.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/putaway.html",
+      "title": "Putaway rules"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_three_steps.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_three_steps.html",
+      "title": "Three-step receipt"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_one_step.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_one_step.html",
+      "title": "One-step receipt and delivery"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/daily_operations/dropshipping.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/dropshipping.html",
+      "title": "Dropshipping"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/daily_operations/storage_category.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/storage_category.html",
+      "title": "Storage categories"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps.html",
+      "title": "Two-step receipt and delivery"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/daily_operations/delivery_three_steps.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/delivery_three_steps.html",
+      "title": "Three-step delivery"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch.html",
+      "title": "Batch picking"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/picking_methods/wave.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/wave.html",
+      "title": "Wave transfers"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/picking_methods/cluster.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/cluster.html",
+      "title": "Cluster picking"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/reservation_methods/at_confirmation.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/at_confirmation.html",
+      "title": "At confirmation reservation"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/reservation_methods/manually.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/manually.html",
+      "title": "Manual reservation"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/reservation_methods/before_scheduled_date.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/reservation_methods/before_scheduled_date.html",
+      "title": "Before scheduled date reservation"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/removal_strategies/least_packages.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/least_packages.html",
+      "title": "Least packages removal"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/removal_strategies/closest_location.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/closest_location.html",
+      "title": "Closest location removal"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fefo.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fefo.html",
+      "title": "FEFO removal"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/removal_strategies/lifo.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/lifo.html",
+      "title": "LIFO removal"
+    },
+    "inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fifo.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fifo.html",
+      "title": "FIFO removal"
+    },
+    "inventory_and_mrp/inventory/product_management/inventory_valuation.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/product_management/inventory_valuation.html",
+      "title": ""
+    },
+    "inventory_and_mrp/inventory/product_management/product_tracking.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/product_management/product_tracking.html",
+      "title": ""
+    },
+    "inventory_and_mrp/inventory/product_management/configure.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/product_management/configure.html",
+      "title": ""
+    },
+    "inventory_and_mrp/inventory/product_management/inventory_valuation/landed_costs.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/product_management/inventory_valuation/landed_costs.html",
+      "title": "Landed costs"
+    },
+    "inventory_and_mrp/inventory/product_management/inventory_valuation/valuation_by_lots.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/product_management/inventory_valuation/valuation_by_lots.html",
+      "title": "Valuation by lots/serial numbers"
+    },
+    "inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.html",
+      "title": "Automatic inventory valuation"
+    },
+    "inventory_and_mrp/inventory/product_management/inventory_valuation/using_inventory_valuation.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/product_management/inventory_valuation/using_inventory_valuation.html",
+      "title": "Using inventory valuation"
+    },
+    "inventory_and_mrp/inventory/product_management/configure/type.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/product_management/configure/type.html",
+      "title": "Product type"
+    },
+    "inventory_and_mrp/inventory/product_management/configure/packaging.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/product_management/configure/packaging.html",
+      "title": "Packaging"
+    },
+    "inventory_and_mrp/inventory/product_management/configure/package.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/product_management/configure/package.html",
+      "title": "Packages"
+    },
+    "inventory_and_mrp/inventory/product_management/configure/uom.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/product_management/configure/uom.html",
+      "title": "Units of measure"
+    },
+    "inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers.html",
+      "title": "Serial numbers"
+    },
+    "inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates.html",
+      "title": "Expiration dates"
+    },
+    "inventory_and_mrp/inventory/product_management/product_tracking/lots.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/product_management/product_tracking/lots.html",
+      "title": "Lot numbers"
+    },
+    "inventory_and_mrp/inventory/product_management/product_tracking/reassign.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/inventory/product_management/product_tracking/reassign.html",
+      "title": "Reassign lot/serial numbers"
+    },
+    "inventory_and_mrp/purchase/manage_deals.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/purchase/manage_deals.html",
+      "title": ""
+    },
+    "inventory_and_mrp/purchase/products.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/purchase/products.html",
+      "title": ""
+    },
+    "inventory_and_mrp/purchase/advanced.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/purchase/advanced.html",
+      "title": ""
+    },
+    "inventory_and_mrp/purchase/advanced/procurement_expenses_report.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/purchase/advanced/procurement_expenses_report.html",
+      "title": "Procurement expenses report"
+    },
+    "inventory_and_mrp/purchase/advanced/vendor_costs_report.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/purchase/advanced/vendor_costs_report.html",
+      "title": "Vendor costs report"
+    },
+    "inventory_and_mrp/purchase/advanced/edi.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/purchase/advanced/edi.html",
+      "title": "EDI purchase-to-sales order import"
+    },
+    "inventory_and_mrp/purchase/advanced/analyze.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/purchase/advanced/analyze.html",
+      "title": "Purchase Analysis report"
+    },
+    "inventory_and_mrp/purchase/products/pricelist.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/purchase/products/pricelist.html",
+      "title": "Import vendor pricelist"
+    },
+    "inventory_and_mrp/purchase/products/temporary_reordering.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/purchase/products/temporary_reordering.html",
+      "title": "Temporary reordering rules"
+    },
+    "inventory_and_mrp/purchase/products/reordering.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/purchase/products/reordering.html",
+      "title": "Configure reordering rules"
+    },
+    "inventory_and_mrp/purchase/manage_deals/control_bills.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/purchase/manage_deals/control_bills.html",
+      "title": "Bill control policies"
+    },
+    "inventory_and_mrp/purchase/manage_deals/blanket_orders.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/purchase/manage_deals/blanket_orders.html",
+      "title": "Blanket orders"
+    },
+    "inventory_and_mrp/purchase/manage_deals/calls_for_tenders.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/purchase/manage_deals/calls_for_tenders.html",
+      "title": "Call for tenders"
+    },
+    "inventory_and_mrp/purchase/manage_deals/rfq.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/purchase/manage_deals/rfq.html",
+      "title": "Requests for quotation"
+    },
+    "inventory_and_mrp/purchase/manage_deals/manage.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/purchase/manage_deals/manage.html",
+      "title": "Manage vendor bills"
+    },
+    "inventory_and_mrp/purchase/manage_deals/purchase_templates.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/purchase/manage_deals/purchase_templates.html",
+      "title": "Purchase templates"
+    },
+    "inventory_and_mrp/maintenance/add_new_equipment.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/maintenance/add_new_equipment.html",
+      "title": "Add new equipment"
+    },
+    "inventory_and_mrp/maintenance/maintenance_requests.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/maintenance/maintenance_requests.html",
+      "title": "Maintenance requests"
+    },
+    "inventory_and_mrp/maintenance/maintenance_setup.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/maintenance/maintenance_setup.html",
+      "title": "Maintenance setup"
+    },
+    "inventory_and_mrp/maintenance/maintenance_calendar.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/maintenance/maintenance_calendar.html",
+      "title": "Maintenance calendar"
+    },
+    "inventory_and_mrp/barcode/operations.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/barcode/operations.html",
+      "title": ""
+    },
+    "inventory_and_mrp/barcode/setup.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/barcode/setup.html",
+      "title": ""
+    },
+    "inventory_and_mrp/barcode/setup/device_troubleshooting.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/barcode/setup/device_troubleshooting.html",
+      "title": "Barcode device troubleshooting"
+    },
+    "inventory_and_mrp/barcode/setup/software.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/barcode/setup/software.html",
+      "title": "Activate the Barcodes in Odoo"
+    },
+    "inventory_and_mrp/barcode/setup/hardware.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/barcode/setup/hardware.html",
+      "title": "Barcode scanner setup"
+    },
+    "inventory_and_mrp/barcode/operations/process_transfers.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/barcode/operations/process_transfers.html",
+      "title": "Process batch transfers"
+    },
+    "inventory_and_mrp/barcode/operations/gs1_usage.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/barcode/operations/gs1_usage.html",
+      "title": "GS1 barcode usage"
+    },
+    "inventory_and_mrp/barcode/operations/gs1_nomenclature.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/barcode/operations/gs1_nomenclature.html",
+      "title": "GS1 barcode nomenclature"
+    },
+    "inventory_and_mrp/barcode/operations/adjustments.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/barcode/operations/adjustments.html",
+      "title": "Adjust inventory with barcodes"
+    },
+    "inventory_and_mrp/barcode/operations/barcode_nomenclature.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/barcode/operations/barcode_nomenclature.html",
+      "title": "Default barcode nomenclature"
+    },
+    "inventory_and_mrp/barcode/operations/receipts_deliveries.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/barcode/operations/receipts_deliveries.html",
+      "title": "Process receipts and deliveries with barcodes"
+    },
+    "inventory_and_mrp/barcode/operations/transfers_scratch.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/inventory_and_mrp/barcode/operations/transfers_scratch.html",
+      "title": "Create and process transfers with barcodes"
+    },
+    "essentials/in_app_purchase.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/essentials/in_app_purchase.html",
+      "title": "In-app purchases (IAP)"
+    },
+    "essentials/keyboard_shortcuts.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/essentials/keyboard_shortcuts.html",
+      "title": "Keyboard shortcuts"
+    },
+    "essentials/export_import_data.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/essentials/export_import_data.html",
+      "title": "Export and import data"
+    },
+    "essentials/activities.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/essentials/activities.html",
+      "title": "Activities"
+    },
+    "essentials/search.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/essentials/search.html",
+      "title": "Search, filter, and group records"
+    },
+    "essentials/contacts.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/essentials/contacts.html",
+      "title": ""
+    },
+    "essentials/reporting.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/essentials/reporting.html",
+      "title": "Reporting"
+    },
+    "essentials/html_editor.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/essentials/html_editor.html",
+      "title": ""
+    },
+    "essentials/contacts/merge.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/essentials/contacts/merge.html",
+      "title": "Merge contacts"
+    },
+    "services/project.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/project.html",
+      "title": ""
+    },
+    "services/helpdesk.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/helpdesk.html",
+      "title": ""
+    },
+    "services/planning.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/planning.html",
+      "title": ""
+    },
+    "services/timesheets.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/timesheets.html",
+      "title": ""
+    },
+    "services/field_service.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/field_service.html",
+      "title": ""
+    },
+    "services/timesheets/overview.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/timesheets/overview.html",
+      "title": ""
+    },
+    "services/timesheets/overview/time_off.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/timesheets/overview/time_off.html",
+      "title": "Create Timesheets upon Time Off Validation"
+    },
+    "services/field_service/worksheets.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/field_service/worksheets.html",
+      "title": "Worksheets"
+    },
+    "services/field_service/creating_tasks.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/field_service/creating_tasks.html",
+      "title": "Creating field service tasks"
+    },
+    "services/field_service/product_management.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/field_service/product_management.html",
+      "title": "Product management"
+    },
+    "services/field_service/planning_itinerary.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/field_service/planning_itinerary.html",
+      "title": "Planning an itinerary"
+    },
+    "services/project/tasks.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/project/tasks.html",
+      "title": ""
+    },
+    "services/project/project_management.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/project/project_management.html",
+      "title": ""
+    },
+    "services/project/tasks/task_stages_statuses.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/project/tasks/task_stages_statuses.html",
+      "title": "Task stages and statuses"
+    },
+    "services/project/tasks/recurring_tasks.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/project/tasks/recurring_tasks.html",
+      "title": "Recurring tasks"
+    },
+    "services/project/tasks/task_creation.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/project/tasks/task_creation.html",
+      "title": "Task creation"
+    },
+    "services/project/tasks/sub-tasks.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/project/tasks/sub-tasks.html",
+      "title": "Sub-tasks"
+    },
+    "services/project/tasks/task_dependencies.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/project/tasks/task_dependencies.html",
+      "title": "Task dependencies"
+    },
+    "services/project/project_management/project_dashboard.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/project/project_management/project_dashboard.html",
+      "title": "Project dashboard"
+    },
+    "services/project/project_management/project_profitability.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/project/project_management/project_profitability.html",
+      "title": "Project profitability"
+    },
+    "services/helpdesk/advanced.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/helpdesk/advanced.html",
+      "title": ""
+    },
+    "services/helpdesk/overview.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/helpdesk/overview.html",
+      "title": ""
+    },
+    "services/helpdesk/advanced/after_sales.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/helpdesk/advanced/after_sales.html",
+      "title": "After-Sales services"
+    },
+    "services/helpdesk/advanced/track_and_bill.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/helpdesk/advanced/track_and_bill.html",
+      "title": "Track and bill time"
+    },
+    "services/helpdesk/advanced/close_tickets.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/helpdesk/advanced/close_tickets.html",
+      "title": "Close tickets"
+    },
+    "services/helpdesk/overview/receiving_tickets.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/helpdesk/overview/receiving_tickets.html",
+      "title": "Receiving tickets"
+    },
+    "services/helpdesk/overview/stages.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/helpdesk/overview/stages.html",
+      "title": "Stages"
+    },
+    "services/helpdesk/overview/ratings.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/helpdesk/overview/ratings.html",
+      "title": "Customer ratings"
+    },
+    "services/helpdesk/overview/sla.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/helpdesk/overview/sla.html",
+      "title": "Service level agreements (SLA)"
+    },
+    "services/helpdesk/overview/reports.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/helpdesk/overview/reports.html",
+      "title": "Reporting"
+    },
+    "services/helpdesk/overview/help_center.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/services/helpdesk/overview/help_center.html",
+      "title": "Help Center"
+    },
+    "websites/elearning.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/elearning.html",
+      "title": "eLearning"
+    },
+    "websites/forum.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/forum.html",
+      "title": "Forum"
+    },
+    "websites/blog.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/blog.html",
+      "title": "Blog"
+    },
+    "websites/ecommerce.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/ecommerce.html",
+      "title": ""
+    },
+    "websites/livechat.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/livechat.html",
+      "title": ""
+    },
+    "websites/website.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website.html",
+      "title": ""
+    },
+    "websites/ecommerce/payments.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/ecommerce/payments.html",
+      "title": "Payment providers"
+    },
+    "websites/ecommerce/customer_accounts.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/ecommerce/customer_accounts.html",
+      "title": "Customer accounts"
+    },
+    "websites/ecommerce/shipping.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/ecommerce/shipping.html",
+      "title": "Delivery"
+    },
+    "websites/ecommerce/performance.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/ecommerce/performance.html",
+      "title": "Performance management"
+    },
+    "websites/ecommerce/products.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/ecommerce/products.html",
+      "title": ""
+    },
+    "websites/ecommerce/checkout.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/ecommerce/checkout.html",
+      "title": "Checkout"
+    },
+    "websites/ecommerce/cart.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/ecommerce/cart.html",
+      "title": "Add to cart"
+    },
+    "websites/ecommerce/order_handling.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/ecommerce/order_handling.html",
+      "title": "Order handling"
+    },
+    "websites/ecommerce/products/price_management.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/ecommerce/products/price_management.html",
+      "title": "Price management"
+    },
+    "websites/ecommerce/products/catalog.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/ecommerce/products/catalog.html",
+      "title": "Catalog"
+    },
+    "websites/ecommerce/products/cross_upselling.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/ecommerce/products/cross_upselling.html",
+      "title": "Cross-selling and upselling"
+    },
+    "websites/website/mail_groups.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/mail_groups.html",
+      "title": "Mail groups"
+    },
+    "websites/website/web_design.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/web_design.html",
+      "title": ""
+    },
+    "websites/website/configuration.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/configuration.html",
+      "title": ""
+    },
+    "websites/website/pages.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/pages.html",
+      "title": ""
+    },
+    "websites/website/reporting.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/reporting.html",
+      "title": ""
+    },
+    "websites/website/reporting/analytics.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/reporting/analytics.html",
+      "title": "Website analytics"
+    },
+    "websites/website/reporting/link_tracker.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/reporting/link_tracker.html",
+      "title": "Link tracker"
+    },
+    "websites/website/configuration/translate.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/configuration/translate.html",
+      "title": "Translations"
+    },
+    "websites/website/configuration/cdn.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/configuration/cdn.html",
+      "title": "Set up a content delivery network (CDN)"
+    },
+    "websites/website/configuration/domain_names.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/configuration/domain_names.html",
+      "title": "Domain names"
+    },
+    "websites/website/configuration/address_autocomplete.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/configuration/address_autocomplete.html",
+      "title": "Address autocomplete"
+    },
+    "websites/website/configuration/google_search_console.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/configuration/google_search_console.html",
+      "title": "Google Search Console"
+    },
+    "websites/website/configuration/cookies_bar.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/configuration/cookies_bar.html",
+      "title": "Cookies bar"
+    },
+    "websites/website/configuration/multi_website.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/configuration/multi_website.html",
+      "title": "Multiple websites"
+    },
+    "websites/website/configuration/spam_protection.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/configuration/spam_protection.html",
+      "title": "Forms spam protection"
+    },
+    "websites/website/web_design/elements.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/web_design/elements.html",
+      "title": "Elements"
+    },
+    "websites/website/web_design/building_blocks.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/web_design/building_blocks.html",
+      "title": ""
+    },
+    "websites/website/web_design/themes.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/web_design/themes.html",
+      "title": "General theme"
+    },
+    "websites/website/web_design/building_blocks/features.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/web_design/building_blocks/features.html",
+      "title": "Features"
+    },
+    "websites/website/web_design/building_blocks/structure.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/web_design/building_blocks/structure.html",
+      "title": "Structure"
+    },
+    "websites/website/web_design/building_blocks/dynamic_content.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/web_design/building_blocks/dynamic_content.html",
+      "title": "Dynamic content"
+    },
+    "websites/website/web_design/building_blocks/inner_content.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/web_design/building_blocks/inner_content.html",
+      "title": "Inner content"
+    },
+    "websites/website/pages/menus.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/pages/menus.html",
+      "title": "Menus"
+    },
+    "websites/website/pages/seo.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/website/pages/seo.html",
+      "title": "Search Engine Optimization (SEO)"
+    },
+    "websites/livechat/participate.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/livechat/participate.html",
+      "title": "Participate in live chat"
+    },
+    "websites/livechat/responses.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/livechat/responses.html",
+      "title": "Commands and canned responses"
+    },
+    "websites/livechat/ratings.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/livechat/ratings.html",
+      "title": "Ratings"
+    },
+    "websites/livechat/chatbots.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/livechat/chatbots.html",
+      "title": "Chatbots"
+    },
+    "websites/livechat/reports.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/websites/livechat/reports.html",
+      "title": "Reports"
+    },
+    "productivity/sign.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign.html",
+      "title": "Sign"
+    },
+    "productivity/whatsapp.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/whatsapp.html",
+      "title": "WhatsApp"
+    },
+    "productivity/spreadsheet.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/spreadsheet.html",
+      "title": ""
+    },
+    "productivity/discuss.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/discuss.html",
+      "title": ""
+    },
+    "productivity/knowledge.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/knowledge.html",
+      "title": ""
+    },
+    "productivity/voip.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/voip.html",
+      "title": ""
+    },
+    "productivity/calendar.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/calendar.html",
+      "title": ""
+    },
+    "productivity/data_cleaning.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/data_cleaning.html",
+      "title": "Data Cleaning"
+    },
+    "productivity/appointments.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/appointments.html",
+      "title": "Appointments"
+    },
+    "productivity/to_do.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/to_do.html",
+      "title": "To-do"
+    },
+    "productivity/documents.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/documents.html",
+      "title": "Documents"
+    },
+    "productivity/calendar/outlook.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/calendar/outlook.html",
+      "title": "Outlook Calendar synchronization"
+    },
+    "productivity/calendar/google.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/calendar/google.html",
+      "title": "Google Calendar synchronization"
+    },
+    "productivity/spreadsheet/functions.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/spreadsheet/functions.html",
+      "title": "Functions"
+    },
+    "productivity/spreadsheet/templates.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/spreadsheet/templates.html",
+      "title": "Templates"
+    },
+    "productivity/spreadsheet/insert.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/spreadsheet/insert.html",
+      "title": "Link Odoo data"
+    },
+    "productivity/spreadsheet/global_filters.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/spreadsheet/global_filters.html",
+      "title": "Global filters"
+    },
+    "productivity/knowledge/articles_editing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/knowledge/articles_editing.html",
+      "title": "Article creation and editing"
+    },
+    "productivity/knowledge/properties.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/knowledge/properties.html",
+      "title": "Properties"
+    },
+    "productivity/knowledge/management.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/knowledge/management.html",
+      "title": "Article management"
+    },
+    "productivity/voip/devices_integrations.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/voip/devices_integrations.html",
+      "title": "Devices and integrations"
+    },
+    "productivity/voip/onsip.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/voip/onsip.html",
+      "title": "Use VoIP services in Odoo with OnSIP"
+    },
+    "productivity/voip/axivox.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/voip/axivox.html",
+      "title": ""
+    },
+    "productivity/voip/voip_widget.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/voip/voip_widget.html",
+      "title": "VoIP actions"
+    },
+    "productivity/voip/axivox/call_queues.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/voip/axivox/call_queues.html",
+      "title": "Call queues"
+    },
+    "productivity/voip/axivox/dial_plan_basics.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/voip/axivox/dial_plan_basics.html",
+      "title": "Dial plan basics"
+    },
+    "productivity/voip/axivox/dynamic_caller_id.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/voip/axivox/dynamic_caller_id.html",
+      "title": "Dynamic caller ID"
+    },
+    "productivity/voip/axivox/vm_audio_messages.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/voip/axivox/vm_audio_messages.html",
+      "title": "Voicemails and audio messages"
+    },
+    "productivity/voip/axivox/manage_users.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/voip/axivox/manage_users.html",
+      "title": "Manage users in Axivox"
+    },
+    "productivity/voip/axivox/axivox_config.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/voip/axivox/axivox_config.html",
+      "title": "VoIP services in Odoo with Axivox"
+    },
+    "productivity/voip/axivox/conference_calls.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/voip/axivox/conference_calls.html",
+      "title": "Conference calls"
+    },
+    "productivity/voip/axivox/dial_plan_advanced.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/voip/axivox/dial_plan_advanced.html",
+      "title": "Advanced dial plans"
+    },
+    "productivity/sign/bangladesh.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/bangladesh.html",
+      "title": ""
+    },
+    "productivity/sign/qatar.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/qatar.html",
+      "title": ""
+    },
+    "productivity/sign/new_zealand.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/new_zealand.html",
+      "title": ""
+    },
+    "productivity/sign/iran.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/iran.html",
+      "title": ""
+    },
+    "productivity/sign/vietnam.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/vietnam.html",
+      "title": ""
+    },
+    "productivity/sign/thailand.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/thailand.html",
+      "title": ""
+    },
+    "productivity/sign/philippines.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/philippines.html",
+      "title": ""
+    },
+    "productivity/sign/hong_kong.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/hong_kong.html",
+      "title": ""
+    },
+    "productivity/sign/morocco.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/morocco.html",
+      "title": ""
+    },
+    "productivity/sign/israel.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/israel.html",
+      "title": ""
+    },
+    "productivity/sign/angola.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/angola.html",
+      "title": ""
+    },
+    "productivity/sign/kuwait.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/kuwait.html",
+      "title": ""
+    },
+    "productivity/sign/azerbaijan.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/azerbaijan.html",
+      "title": ""
+    },
+    "productivity/sign/south_africa.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/south_africa.html",
+      "title": ""
+    },
+    "productivity/sign/australia.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/australia.html",
+      "title": ""
+    },
+    "productivity/sign/malaysia.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/malaysia.html",
+      "title": ""
+    },
+    "productivity/sign/japan.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/japan.html",
+      "title": ""
+    },
+    "productivity/sign/nigeria.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/nigeria.html",
+      "title": ""
+    },
+    "productivity/sign/ukraine.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/ukraine.html",
+      "title": ""
+    },
+    "productivity/sign/peru.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/peru.html",
+      "title": ""
+    },
+    "productivity/sign/egypt.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/egypt.html",
+      "title": ""
+    },
+    "productivity/sign/india.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/india.html",
+      "title": ""
+    },
+    "productivity/sign/uzbekistan.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/uzbekistan.html",
+      "title": ""
+    },
+    "productivity/sign/brazil.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/brazil.html",
+      "title": ""
+    },
+    "productivity/sign/dominican_republic.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/dominican_republic.html",
+      "title": ""
+    },
+    "productivity/sign/pakistan.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/pakistan.html",
+      "title": ""
+    },
+    "productivity/sign/algeria.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/algeria.html",
+      "title": ""
+    },
+    "productivity/sign/colombia.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/colombia.html",
+      "title": ""
+    },
+    "productivity/sign/iraq.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/iraq.html",
+      "title": ""
+    },
+    "productivity/sign/argentina.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/argentina.html",
+      "title": ""
+    },
+    "productivity/sign/canada.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/canada.html",
+      "title": ""
+    },
+    "productivity/sign/mexico.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/mexico.html",
+      "title": ""
+    },
+    "productivity/sign/indonesia.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/indonesia.html",
+      "title": ""
+    },
+    "productivity/sign/norway.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/norway.html",
+      "title": ""
+    },
+    "productivity/sign/kazakhstan.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/kazakhstan.html",
+      "title": ""
+    },
+    "productivity/sign/switzerland.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/switzerland.html",
+      "title": ""
+    },
+    "productivity/sign/guatemala.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/guatemala.html",
+      "title": ""
+    },
+    "productivity/sign/china.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/china.html",
+      "title": ""
+    },
+    "productivity/sign/singapore.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/singapore.html",
+      "title": ""
+    },
+    "productivity/sign/oman.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/oman.html",
+      "title": ""
+    },
+    "productivity/sign/ethiopia.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/ethiopia.html",
+      "title": ""
+    },
+    "productivity/sign/saudi_arabia.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/saudi_arabia.html",
+      "title": ""
+    },
+    "productivity/sign/united_arab_emirates.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/united_arab_emirates.html",
+      "title": ""
+    },
+    "productivity/sign/kenya.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/kenya.html",
+      "title": ""
+    },
+    "productivity/sign/ecuador.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/ecuador.html",
+      "title": ""
+    },
+    "productivity/sign/turkey.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/turkey.html",
+      "title": ""
+    },
+    "productivity/sign/south_korea.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/south_korea.html",
+      "title": ""
+    },
+    "productivity/sign/united_kingdom.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/united_kingdom.html",
+      "title": ""
+    },
+    "productivity/sign/russia.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/russia.html",
+      "title": ""
+    },
+    "productivity/sign/germany.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/germany.html",
+      "title": ""
+    },
+    "productivity/sign/chile.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/sign/chile.html",
+      "title": ""
+    },
+    "productivity/discuss/ice_servers.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/discuss/ice_servers.html",
+      "title": "Configure ICE servers with Twilio"
+    },
+    "productivity/discuss/team_communication.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/discuss/team_communication.html",
+      "title": "Use channels for team communication"
+    },
+    "productivity/discuss/chatter.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/discuss/chatter.html",
+      "title": "Chatter"
+    },
+    "productivity/discuss/canned_responses.md": {
+      "source_url": "https://docs.odoo.sbggai.top/applications/productivity/discuss/canned_responses.html",
+      "title": "Canned responses"
+    }
+  },
+  "administration": {
+    "mobile.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/mobile.html",
+      "title": "Odoo mobile apps"
+    },
+    "on_premise.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/on_premise.html",
+      "title": ""
+    },
+    "odoo_sh.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/odoo_sh.html",
+      "title": ""
+    },
+    "hosting.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/hosting.html",
+      "title": "Hosting"
+    },
+    "odoo_accounts.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/odoo_accounts.html",
+      "title": "Odoo.com accounts"
+    },
+    "supported_versions.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/supported_versions.html",
+      "title": ""
+    },
+    "upgrade.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/upgrade.html",
+      "title": "Upgrade"
+    },
+    "odoo_online.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/odoo_online.html",
+      "title": "Odoo Online"
+    },
+    "neutralized_database.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/neutralized_database.html",
+      "title": "Neutralized database"
+    },
+    "odoo_sh/advanced.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/odoo_sh/advanced.html",
+      "title": ""
+    },
+    "odoo_sh/overview.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/odoo_sh/overview.html",
+      "title": ""
+    },
+    "odoo_sh/getting_started.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/odoo_sh/getting_started.html",
+      "title": ""
+    },
+    "odoo_sh/advanced/submodules.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/odoo_sh/advanced/submodules.html",
+      "title": ""
+    },
+    "odoo_sh/advanced/frequent_technical_questions.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/odoo_sh/advanced/frequent_technical_questions.html",
+      "title": ""
+    },
+    "odoo_sh/advanced/containers.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/odoo_sh/advanced/containers.html",
+      "title": ""
+    },
+    "odoo_sh/overview/introduction.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/odoo_sh/overview/introduction.html",
+      "title": "Introduction to Odoo.sh"
+    },
+    "odoo_sh/getting_started/builds.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/odoo_sh/getting_started/builds.html",
+      "title": ""
+    },
+    "odoo_sh/getting_started/branches.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/odoo_sh/getting_started/branches.html",
+      "title": "Branches"
+    },
+    "odoo_sh/getting_started/first_module.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/odoo_sh/getting_started/first_module.html",
+      "title": "Your first module"
+    },
+    "odoo_sh/getting_started/online-editor.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/odoo_sh/getting_started/online-editor.html",
+      "title": ""
+    },
+    "odoo_sh/getting_started/settings.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/odoo_sh/getting_started/settings.html",
+      "title": "Settings"
+    },
+    "odoo_sh/getting_started/create.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/odoo_sh/getting_started/create.html",
+      "title": ""
+    },
+    "odoo_sh/getting_started/status.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/odoo_sh/getting_started/status.html",
+      "title": "Status"
+    },
+    "on_premise/deploy.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/on_premise/deploy.html",
+      "title": "System configuration"
+    },
+    "on_premise/packages.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/on_premise/packages.html",
+      "title": "Packaged installers"
+    },
+    "on_premise/update.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/on_premise/update.html",
+      "title": ""
+    },
+    "on_premise/community_to_enterprise.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/on_premise/community_to_enterprise.html",
+      "title": ""
+    },
+    "on_premise/source.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/on_premise/source.html",
+      "title": "Source install"
+    },
+    "on_premise/geo_ip.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/on_premise/geo_ip.html",
+      "title": "Geo IP"
+    },
+    "on_premise/email_gateway.md": {
+      "source_url": "https://docs.odoo.sbggai.top/administration/on_premise/email_gateway.html",
+      "title": "Email gateway"
+    }
+  },
+  "developer": {
+    "howtos.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos.html",
+      "title": ""
+    },
+    "glossary.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/glossary.html",
+      "title": ""
+    },
+    "reference.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference.html",
+      "title": ""
+    },
+    "tutorials.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials.html",
+      "title": ""
+    },
+    "tutorials/discover_js_framework.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/discover_js_framework.html",
+      "title": ""
+    },
+    "tutorials/unit_tests.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/unit_tests.html",
+      "title": "Safeguard your code with unit tests"
+    },
+    "tutorials/setup_guide.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/setup_guide.html",
+      "title": "Setup guide"
+    },
+    "tutorials/master_odoo_web_framework.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/master_odoo_web_framework.html",
+      "title": ""
+    },
+    "tutorials/mixins.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/mixins.html",
+      "title": "Reuse code with mixins"
+    },
+    "tutorials/website.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/website.html",
+      "title": ""
+    },
+    "tutorials/define_module_data.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/define_module_data.html",
+      "title": "Define module data"
+    },
+    "tutorials/backend.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/backend.html",
+      "title": ""
+    },
+    "tutorials/web.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/web.html",
+      "title": ""
+    },
+    "tutorials/server_framework_101.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/server_framework_101.html",
+      "title": ""
+    },
+    "tutorials/pdf_reports.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/pdf_reports.html",
+      "title": "Build PDF Reports"
+    },
+    "tutorials/restrict_data_access.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/restrict_data_access.html",
+      "title": "Restrict access to data"
+    },
+    "tutorials/importable_modules.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/importable_modules.html",
+      "title": "Write importable modules"
+    },
+    "tutorials/discover_js_framework/02_build_a_dashboard.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/discover_js_framework/02_build_a_dashboard.html",
+      "title": "Chapter 2: Build a dashboard"
+    },
+    "tutorials/discover_js_framework/01_owl_components.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/discover_js_framework/01_owl_components.html",
+      "title": "Chapter 1: Owl components"
+    },
+    "tutorials/server_framework_101/12_inheritance.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/server_framework_101/12_inheritance.html",
+      "title": "Chapter 12: Inheritance"
+    },
+    "tutorials/server_framework_101/08_compute_onchange.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/server_framework_101/08_compute_onchange.html",
+      "title": "Chapter 8: Computed Fields And Onchanges"
+    },
+    "tutorials/server_framework_101/15_final_word.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/server_framework_101/15_final_word.html",
+      "title": "Chapter 15: The final word"
+    },
+    "tutorials/server_framework_101/02_newapp.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/server_framework_101/02_newapp.html",
+      "title": "Chapter 2: A New Application"
+    },
+    "tutorials/server_framework_101/09_actions.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/server_framework_101/09_actions.html",
+      "title": "Chapter 9: Ready For Some Action?"
+    },
+    "tutorials/server_framework_101/11_sprinkles.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/server_framework_101/11_sprinkles.html",
+      "title": "Chapter 11: Add The Sprinkles"
+    },
+    "tutorials/server_framework_101/14_qwebintro.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/server_framework_101/14_qwebintro.html",
+      "title": "Chapter 14: A Brief History Of QWeb"
+    },
+    "tutorials/server_framework_101/01_architecture.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/server_framework_101/01_architecture.html",
+      "title": ""
+    },
+    "tutorials/server_framework_101/06_basicviews.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/server_framework_101/06_basicviews.html",
+      "title": "Chapter 6: Basic Views"
+    },
+    "tutorials/server_framework_101/04_securityintro.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/server_framework_101/04_securityintro.html",
+      "title": "Chapter 4: Security - A Brief Introduction"
+    },
+    "tutorials/server_framework_101/10_constraints.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/server_framework_101/10_constraints.html",
+      "title": "Chapter 10: Constraints"
+    },
+    "tutorials/server_framework_101/13_other_module.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/server_framework_101/13_other_module.html",
+      "title": "Chapter 13: Interact With Other Modules"
+    },
+    "tutorials/server_framework_101/03_basicmodel.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/server_framework_101/03_basicmodel.html",
+      "title": "Chapter 3: Models And Basic Fields"
+    },
+    "tutorials/server_framework_101/07_relations.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/server_framework_101/07_relations.html",
+      "title": "Chapter 7: Relations Between Models"
+    },
+    "tutorials/server_framework_101/05_firstui.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/server_framework_101/05_firstui.html",
+      "title": "Chapter 5: Finally, Some UI To Play With"
+    },
+    "tutorials/master_odoo_web_framework/01_build_clicker_game.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/master_odoo_web_framework/01_build_clicker_game.html",
+      "title": "Chapter 1: Build a Clicker game"
+    },
+    "tutorials/master_odoo_web_framework/03_customize_kanban_view.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/master_odoo_web_framework/03_customize_kanban_view.html",
+      "title": "Chapter 3: Customize a kanban view"
+    },
+    "tutorials/master_odoo_web_framework/02_create_gallery_view.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/tutorials/master_odoo_web_framework/02_create_gallery_view.html",
+      "title": "Chapter 2: Create a Gallery View"
+    },
+    "howtos/javascript_view.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/javascript_view.html",
+      "title": "Customize a view type"
+    },
+    "howtos/web_services.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/web_services.html",
+      "title": "Web Services"
+    },
+    "howtos/javascript_field.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/javascript_field.html",
+      "title": ""
+    },
+    "howtos/scss_tips.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/scss_tips.html",
+      "title": "Write lean easy-to-maintain CSS"
+    },
+    "howtos/connect_device.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/connect_device.html",
+      "title": "Connect with a device"
+    },
+    "howtos/frontend_owl_components.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/frontend_owl_components.html",
+      "title": "Use Owl components on the portal and website"
+    },
+    "howtos/company.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/company.html",
+      "title": ""
+    },
+    "howtos/create_reports.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/create_reports.html",
+      "title": "Create customized reports"
+    },
+    "howtos/translations.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/translations.html",
+      "title": ""
+    },
+    "howtos/javascript_client_action.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/javascript_client_action.html",
+      "title": ""
+    },
+    "howtos/website_themes.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/website_themes.html",
+      "title": ""
+    },
+    "howtos/upgrade_custom_db.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/upgrade_custom_db.html",
+      "title": "Upgrade a customized database"
+    },
+    "howtos/standalone_owl_application.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/standalone_owl_application.html",
+      "title": "Create a standalone Owl application"
+    },
+    "howtos/accounting_localization.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/accounting_localization.html",
+      "title": ""
+    },
+    "howtos/website_themes/media.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/website_themes/media.html",
+      "title": "Media"
+    },
+    "howtos/website_themes/setup.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/website_themes/setup.html",
+      "title": "Setup"
+    },
+    "howtos/website_themes/forms.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/website_themes/forms.html",
+      "title": "Forms"
+    },
+    "howtos/website_themes/gradients.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/website_themes/gradients.html",
+      "title": "Gradients"
+    },
+    "howtos/website_themes/layout.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/website_themes/layout.html",
+      "title": "Layout"
+    },
+    "howtos/website_themes/theming.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/website_themes/theming.html",
+      "title": "Theming"
+    },
+    "howtos/website_themes/going_live.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/website_themes/going_live.html",
+      "title": "Going live"
+    },
+    "howtos/website_themes/translations.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/website_themes/translations.html",
+      "title": "Translations"
+    },
+    "howtos/website_themes/pages.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/website_themes/pages.html",
+      "title": "Pages"
+    },
+    "howtos/website_themes/shapes.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/website_themes/shapes.html",
+      "title": "Shapes"
+    },
+    "howtos/website_themes/building_blocks.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/website_themes/building_blocks.html",
+      "title": "Building blocks"
+    },
+    "howtos/website_themes/animations.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/website_themes/animations.html",
+      "title": "Animations"
+    },
+    "howtos/website_themes/navigation.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/howtos/website_themes/navigation.html",
+      "title": "Navigation"
+    },
+    "reference/cli.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/cli.html",
+      "title": ""
+    },
+    "reference/extract_api.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/extract_api.html",
+      "title": "Extract API"
+    },
+    "reference/upgrades.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/upgrades.html",
+      "title": ""
+    },
+    "reference/frontend.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/frontend.html",
+      "title": ""
+    },
+    "reference/external_api.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/external_api.html",
+      "title": "External API"
+    },
+    "reference/backend.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/backend.html",
+      "title": ""
+    },
+    "reference/standard_modules.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/standard_modules.html",
+      "title": ""
+    },
+    "reference/user_interface.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface.html",
+      "title": ""
+    },
+    "reference/frontend/qweb.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/frontend/qweb.html",
+      "title": ""
+    },
+    "reference/frontend/odoo_editor.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/frontend/odoo_editor.html",
+      "title": "Odoo Editor"
+    },
+    "reference/frontend/javascript_modules.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/frontend/javascript_modules.html",
+      "title": ""
+    },
+    "reference/frontend/mobile.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/frontend/mobile.html",
+      "title": ""
+    },
+    "reference/frontend/assets.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/frontend/assets.html",
+      "title": ""
+    },
+    "reference/frontend/hooks.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/frontend/hooks.html",
+      "title": ""
+    },
+    "reference/frontend/owl_components.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/frontend/owl_components.html",
+      "title": ""
+    },
+    "reference/frontend/patching_code.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/frontend/patching_code.html",
+      "title": "Patching code"
+    },
+    "reference/frontend/error_handling.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/frontend/error_handling.html",
+      "title": "Error handling"
+    },
+    "reference/frontend/services.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/frontend/services.html",
+      "title": ""
+    },
+    "reference/frontend/framework_overview.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/frontend/framework_overview.html",
+      "title": "Framework Overview"
+    },
+    "reference/frontend/javascript_reference.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/frontend/javascript_reference.html",
+      "title": ""
+    },
+    "reference/frontend/registries.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/frontend/registries.html",
+      "title": ""
+    },
+    "reference/standard_modules/account.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/standard_modules/account.html",
+      "title": ""
+    },
+    "reference/standard_modules/payment.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/standard_modules/payment.html",
+      "title": ""
+    },
+    "reference/standard_modules/payment/payment_transaction.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/standard_modules/payment/payment_transaction.html",
+      "title": ""
+    },
+    "reference/standard_modules/payment/payment_provider.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/standard_modules/payment/payment_provider.html",
+      "title": ""
+    },
+    "reference/standard_modules/payment/payment_token.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/standard_modules/payment/payment_token.html",
+      "title": ""
+    },
+    "reference/standard_modules/payment/payment_method.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/standard_modules/payment/payment_method.html",
+      "title": ""
+    },
+    "reference/standard_modules/account/account_report.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/standard_modules/account/account_report.html",
+      "title": "Report"
+    },
+    "reference/standard_modules/account/account_fiscal_position.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/standard_modules/account/account_fiscal_position.html",
+      "title": ""
+    },
+    "reference/standard_modules/account/account_account_tag.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/standard_modules/account/account_account_tag.html",
+      "title": ""
+    },
+    "reference/standard_modules/account/account_tax.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/standard_modules/account/account_tax.html",
+      "title": ""
+    },
+    "reference/standard_modules/account/account_account.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/standard_modules/account/account_account.html",
+      "title": ""
+    },
+    "reference/standard_modules/account/account_group.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/standard_modules/account/account_group.html",
+      "title": ""
+    },
+    "reference/standard_modules/account/account_tax_repartition.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/standard_modules/account/account_tax_repartition.html",
+      "title": ""
+    },
+    "reference/standard_modules/account/account_report_line.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/standard_modules/account/account_report_line.html",
+      "title": "Report Line"
+    },
+    "reference/backend/mixins.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/backend/mixins.html",
+      "title": ""
+    },
+    "reference/backend/performance.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/backend/performance.html",
+      "title": ""
+    },
+    "reference/backend/actions.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/backend/actions.html",
+      "title": "Actions"
+    },
+    "reference/backend/testing.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/backend/testing.html",
+      "title": ""
+    },
+    "reference/backend/module.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/backend/module.html",
+      "title": ""
+    },
+    "reference/backend/orm.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/backend/orm.html",
+      "title": ""
+    },
+    "reference/backend/data.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/backend/data.html",
+      "title": ""
+    },
+    "reference/backend/http.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/backend/http.html",
+      "title": ""
+    },
+    "reference/backend/reports.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/backend/reports.html",
+      "title": ""
+    },
+    "reference/backend/security.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/backend/security.html",
+      "title": ""
+    },
+    "reference/backend/orm/changelog.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/backend/orm/changelog.html",
+      "title": ""
+    },
+    "reference/user_interface/icons.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/icons.html",
+      "title": ""
+    },
+    "reference/user_interface/scss_inheritance.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/scss_inheritance.html",
+      "title": "SCSS inheritance"
+    },
+    "reference/user_interface/view_records.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_records.html",
+      "title": "View records"
+    },
+    "reference/user_interface/view_architectures.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures.html",
+      "title": ""
+    },
+    "reference/user_interface/view_architectures/root_attribute_create.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/root_attribute_create.html",
+      "title": "Disable/enable record creation on the view."
+    },
+    "reference/user_interface/view_architectures/button_attribute_type.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/button_attribute_type.html",
+      "title": "The type of the button indicating how it behaves. It can have two different values:"
+    },
+    "reference/user_interface/view_architectures/button_attribute_context.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/button_attribute_context.html",
+      "title": "The context that is merged into the view's context when performing the button's call, as a Python"
+    },
+    "reference/user_interface/view_architectures/button_attribute_name.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/button_attribute_name.html",
+      "title": "The method to call if the `type` is `object`. The :term:`XMLID <external identifier>` of the"
+    },
+    "reference/user_interface/view_architectures/button_attribute_icon.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/button_attribute_icon.html",
+      "title": "The icon to use to display the button. See :ref:`icons <reference/user_interface/ui_icons>` for"
+    },
+    "reference/user_interface/view_architectures/root_attribute_string.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/root_attribute_string.html",
+      "title": "The view title. It is displayed only if you open an action that has no name and whose target is"
+    },
+    "reference/user_interface/view_architectures/generic_attribute_column_invisible.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/generic_attribute_column_invisible.html",
+      "title": "Whether the column is visible (`False`) or hidden (`True`), as a Python expression that evaluates"
+    },
+    "reference/user_interface/view_architectures/field_attribute_required.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/field_attribute_required.html",
+      "title": "Whether the field can be left empty (`False`) or must be set (`True`), as a Python expression"
+    },
+    "reference/user_interface/view_architectures/button_attribute_help.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/button_attribute_help.html",
+      "title": "The tooltip message shown when hovering with the mouse cursor."
+    },
+    "reference/user_interface/view_architectures/generic_attribute_invisible.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/generic_attribute_invisible.html",
+      "title": "Whether the element is visible (`False`) or hidden (`True`), as a Python expression that"
+    },
+    "reference/user_interface/view_architectures/root_attribute_default_group_by.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/root_attribute_default_group_by.html",
+      "title": "The name of the field on which the records should be grouped by default if no grouping is"
+    },
+    "reference/user_interface/view_architectures/field_attribute_name.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/field_attribute_name.html",
+      "title": "The name of the field to render."
+    },
+    "reference/user_interface/view_architectures/root_attribute_sample.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/root_attribute_sample.html",
+      "title": "Whether the view should be populated with a set of sample records if none are found for the"
+    },
+    "reference/user_interface/view_architectures/generic_attribute_groups.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/generic_attribute_groups.html",
+      "title": "The comma-separated list of user groups to whom the element is displayed. Users who do not belong"
+    },
+    "reference/user_interface/view_architectures/button_attribute_string.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/button_attribute_string.html",
+      "title": "The button's text if there is no `icon`, the `alt` text for the icon otherwise."
+    },
+    "reference/user_interface/view_architectures/field_attribute_string.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/field_attribute_string.html",
+      "title": "The label of the field."
+    },
+    "reference/user_interface/view_architectures/root_attribute_delete.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/root_attribute_delete.html",
+      "title": "Disable/enable record deletion on the view through the :guilabel:`Action` dropdown."
+    },
+    "reference/user_interface/view_architectures/generic_attribute_class.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/generic_attribute_class.html",
+      "title": "The `HTML class <https://en.wikipedia.org/wiki/HTML_attribute>`_ to set on the generated element."
+    },
+    "reference/user_interface/view_architectures/root_attribute_default_order.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/root_attribute_default_order.html",
+      "title": "A comma-separated list of fields names that overrides the ordering defined on the model through"
+    },
+    "reference/user_interface/view_architectures/field_attribute_readonly.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/field_attribute_readonly.html",
+      "title": "Whether the field can be modified by the user (`False`) or is read-only (`True`), as a Python"
+    },
+    "reference/user_interface/view_architectures/root_attribute_edit.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/user_interface/view_architectures/root_attribute_edit.html",
+      "title": "Disable/enable record edition on the view."
+    },
+    "reference/upgrades/upgrade_scripts.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/upgrades/upgrade_scripts.html",
+      "title": "Upgrade scripts"
+    },
+    "reference/upgrades/upgrade_utils.md": {
+      "source_url": "https://docs.odoo.sbggai.top/developer/reference/upgrades/upgrade_utils.html",
+      "title": "Upgrade utils"
+    }
+  },
+  "contributing": {
+    "development.md": {
+      "source_url": "https://docs.odoo.sbggai.top/contributing/development.html",
+      "title": ""
+    },
+    "install_git.md": {
+      "source_url": "https://docs.odoo.sbggai.top/contributing/install_git.html",
+      "title": "`Install Git <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>`_. It is a command-line"
+    },
+    "documentation.md": {
+      "source_url": "https://docs.odoo.sbggai.top/contributing/documentation.html",
+      "title": ""
+    },
+    "documentation/rst_guidelines.md": {
+      "source_url": "https://docs.odoo.sbggai.top/contributing/documentation/rst_guidelines.html",
+      "title": ""
+    },
+    "documentation/content_guidelines.md": {
+      "source_url": "https://docs.odoo.sbggai.top/contributing/documentation/content_guidelines.html",
+      "title": "Content guidelines"
+    },
+    "development/coding_guidelines.md": {
+      "source_url": "https://docs.odoo.sbggai.top/contributing/development/coding_guidelines.html",
+      "title": ""
+    },
+    "development/git_guidelines.md": {
+      "source_url": "https://docs.odoo.sbggai.top/contributing/development/git_guidelines.html",
+      "title": "Git guidelines"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "odoo-forge-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "doctor": "npm --workspace odoo-forge run doctor",
+    "pack:bundle": "npm pack --workspace odoo-forge-bundle",
+    "pack:cli": "npm pack --workspace odoo-forge",
+    "release:check": "npm run build --workspace odoo-forge-bundle && npm test --workspace odoo-forge && npm run pack:bundle && npm run pack:cli"
+  }
+}

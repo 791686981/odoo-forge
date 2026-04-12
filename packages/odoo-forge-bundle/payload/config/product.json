@@ -1,0 +1,11 @@
+{
+  "name": "Odoo Forge",
+  "slug": "odoo-forge",
+  "version": "0.1.0",
+  "description": "Unified Odoo agent toolkit for Codex and Claude Code.",
+  "localInstallRoot": "~/.odoo-forge",
+  "packages": {
+    "cli": "odoo-forge",
+    "bundle": "odoo-forge-bundle"
+  }
+}

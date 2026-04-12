@@ -1,0 +1,16 @@
+{
+  "name": "odoo-forge-bundle",
+  "version": "0.1.0",
+  "description": "Generated bundle payload for Odoo Forge internal 1.0.",
+  "type": "module",
+  "exports": "./index.js",
+  "files": [
+    "index.js",
+    "manifest.json",
+    "payload"
+  ],
+  "scripts": {
+    "build": "node ../../scripts/sync-bundle.mjs",
+    "prepack": "node ../../scripts/sync-bundle.mjs"
+  }
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "翻译工具"
+  short_description: "定位并翻译 Odoo 模块的 po 或 pot 文件，支持本地化交付"
+  icon_small: "./assets/icon-small.svg"
+  icon_large: "./assets/icon-large.svg"
+  brand_color: "#714B67"

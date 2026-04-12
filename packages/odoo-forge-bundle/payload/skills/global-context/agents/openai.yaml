@@ -1,0 +1,6 @@
+interface:
+  display_name: "全局资源共创专家"
+  short_description: "围绕 FlowUS 的全局资源页面做建设、修订与健康巡检，沉淀项目级共享上下文"
+  icon_small: "./assets/icon-small.svg"
+  icon_large: "./assets/icon-large.svg"
+  brand_color: "#714B67"
