@@ -1,6 +1,6 @@
 {
   "name": "odoo-forge-bundle",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Generated bundle payload for Odoo Forge internal 1.0.",
   "type": "module",
   "exports": "./index.js",
