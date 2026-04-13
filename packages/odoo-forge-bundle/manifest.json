@@ -1,6 +1,6 @@
 {
   "name": "odoo-forge-bundle",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "status": "scaffold",
   "payload": {
     "root": "./payload",
