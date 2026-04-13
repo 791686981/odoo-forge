@@ -25,7 +25,6 @@ resetTarget(path.join(payloadRoot, "platforms"));
 resetTarget(path.join(payloadRoot, "config"));
 
 copyDirectory(path.join(repoRoot, "skills"), path.join(payloadRoot, "skills"));
-copyDirectory(path.join(repoRoot, "platforms"), path.join(payloadRoot, "platforms"));
 copyFile(path.join(repoRoot, "config", "product.json"), path.join(payloadRoot, "config", "product.json"));
 
 console.log(`Synced bundle payload to ${payloadRoot}`);

@@ -20,31 +20,21 @@ function createBundleFixture() {
   return bundleRoot;
 }
 
-test("install 会安装技能并直写 Codex 与 Claude MCP", async () => {
+test("install 会安装技能且不再写入任何 MCP 配置", async () => {
   const homeDir = fs.mkdtempSync(path.join(os.tmpdir(), "odoo-forge-home-"));
   const bundleRoot = createBundleFixture();
 
   await main(["install"], {
     homeDir,
-    env: { ODOO_FORGE_FLOWUS_TOKEN: "demo-token" },
     bundleRoot,
     output: { log() {}, error() {} },
-    promptForSecret: async () => {
-      throw new Error("should not prompt");
-    },
   });
 
   assert.ok(
     fs.existsSync(path.join(homeDir, ".agents", "skills", "demo", "SKILL.md")),
   );
-
-  const codexConfig = fs.readFileSync(path.join(homeDir, ".codex", "config.toml"), "utf8");
-  assert.match(codexConfig, /command = "npx"/);
-  assert.match(codexConfig, /FLOWUS_TOKEN = "demo-token"/);
-
-  const claudeConfig = JSON.parse(fs.readFileSync(path.join(homeDir, ".claude.json"), "utf8"));
-  assert.equal(claudeConfig.mcpServers.flowus.command, "npx");
-  assert.equal(claudeConfig.mcpServers.flowus.env.FLOWUS_TOKEN, "demo-token");
+  assert.equal(fs.existsSync(path.join(homeDir, ".codex", "config.toml")), false);
+  assert.equal(fs.existsSync(path.join(homeDir, ".claude.json")), false);
 });
 
 test("install 只覆盖 Odoo Forge 自带技能并清理旧命名空间目录", async () => {
@@ -58,12 +48,8 @@ test("install 只覆盖 Odoo Forge 自带技能并清理旧命名空间目录", 
 
   await main(["install"], {
     homeDir,
-    env: { ODOO_FORGE_FLOWUS_TOKEN: "demo-token" },
     bundleRoot,
     output: { log() {}, error() {} },
-    promptForSecret: async () => {
-      throw new Error("should not prompt");
-    },
   });
 
   assert.ok(fs.existsSync(path.join(homeDir, ".agents", "skills", "demo", "SKILL.md")));
@@ -71,50 +57,11 @@ test("install 只覆盖 Odoo Forge 自带技能并清理旧命名空间目录", 
   assert.equal(fs.existsSync(path.join(homeDir, ".agents", "skills", "odoo-forge")), false);
 });
 
-test("login flowus 会同步更新 Codex 与 Claude 的 token", async () => {
-  const homeDir = fs.mkdtempSync(path.join(os.tmpdir(), "odoo-forge-login-"));
-
-  await main(["login", "flowus"], {
-    homeDir,
-    env: { ODOO_FORGE_FLOWUS_TOKEN: "next-token" },
-    output: { log() {}, error() {} },
-  });
-
-  const codexConfig = fs.readFileSync(path.join(homeDir, ".codex", "config.toml"), "utf8");
-  const claudeConfig = JSON.parse(fs.readFileSync(path.join(homeDir, ".claude.json"), "utf8"));
-
-  assert.match(codexConfig, /FLOWUS_TOKEN = "next-token"/);
-  assert.equal(claudeConfig.mcpServers.flowus.env.FLOWUS_TOKEN, "next-token");
-});
-
-test("doctor 能识别 Codex 里现有可用的分节 FlowUS 配置", async () => {
+test("doctor 只检查 skills 安装状态", async () => {
   const homeDir = fs.mkdtempSync(path.join(os.tmpdir(), "odoo-forge-doctor-"));
   const logs = [];
-
-  fs.mkdirSync(path.join(homeDir, ".codex"), { recursive: true });
-  fs.writeFileSync(path.join(homeDir, ".codex", "config.toml"), `model = "gpt-5.4"
-
-[mcp_servers.flowus]
-type = "stdio"
-command = "npx"
-args = ["-y", "flowus-mcp-server@latest"]
-
-[mcp_servers.flowus.env]
-FLOWUS_TOKEN = "shared-token"
-`);
-
-  fs.writeFileSync(path.join(homeDir, ".claude.json"), JSON.stringify({
-    mcpServers: {
-      flowus: {
-        type: "stdio",
-        command: "npx",
-        args: ["-y", "flowus-mcp-server@latest"],
-        env: {
-          FLOWUS_TOKEN: "shared-token",
-        },
-      },
-    },
-  }));
+  fs.mkdirSync(path.join(homeDir, ".agents", "skills", "demo"), { recursive: true });
+  fs.writeFileSync(path.join(homeDir, ".agents", "skills", "demo", "SKILL.md"), "# demo");
 
   await main(["doctor"], {
     homeDir,
@@ -126,24 +73,6 @@ FLOWUS_TOKEN = "shared-token"
     },
   });
 
-  assert.ok(logs.includes("Codex FlowUS MCP exists: yes"));
-  assert.ok(logs.includes("Claude FlowUS MCP exists: yes"));
-  assert.ok(logs.includes("FlowUS token synchronized: yes"));
-});
-
-test("mcp flowus 会优先读取环境变量并启动真实 MCP 进程", async () => {
-  let launched = null;
-  await main(["mcp", "flowus"], {
-    homeDir: fs.mkdtempSync(path.join(os.tmpdir(), "odoo-forge-mcp-")),
-    env: { FLOWUS_TOKEN: "demo-token" },
-    output: { log() {}, error() {} },
-    spawnProcess: async (command, args, options) => {
-      launched = { command, args, options };
-      return 0;
-    },
-  });
-
-  assert.equal(launched.command, "npx");
-  assert.deepEqual(launched.args, ["-y", "flowus-mcp-server@latest"]);
-  assert.equal(launched.options.env.FLOWUS_TOKEN, "demo-token");
+  assert.ok(logs.includes("Skills installed: yes"));
+  assert.ok(logs.includes("Installed skills count: 1"));
 });

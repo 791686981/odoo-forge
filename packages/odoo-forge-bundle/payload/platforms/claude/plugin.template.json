@@ -1,8 +1,0 @@
-{
-  "name": "odoo-forge",
-  "version": "0.1.9",
-  "description": "Internal Odoo Forge plugin for Claude Code.",
-  "author": {
-    "name": "Internal Team"
-  }
-}

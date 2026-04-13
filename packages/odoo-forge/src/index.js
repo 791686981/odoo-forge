@@ -1,16 +1,9 @@
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
-import readline from "node:readline/promises";
-import { spawn } from "node:child_process";
 import { fileURLToPath } from "node:url";
-
-import { installClaudeWiring, readClaudeManagedToken } from "./claude.js";
-import { installCodexWiring, readCodexManagedToken } from "./codex.js";
 import {
   getAgentsSkillsRoot,
-  getClaudeConfigPath,
-  getCodexConfigPath,
   getInstalledSkillsPath,
   getLegacyInstalledSkillsPath,
 } from "./paths.js";
@@ -21,9 +14,7 @@ function printHelp() {
 Usage:
   odoo-forge install
   odoo-forge update
-  odoo-forge doctor
-  odoo-forge login flowus
-  odoo-forge mcp flowus`);
+  odoo-forge doctor`);
 }
 
 async function resolveBundleRoot(bundleRootOverride) {
@@ -40,29 +31,6 @@ async function resolveBundleRoot(bundleRootOverride) {
       "../../odoo-forge-bundle/payload",
     );
   }
-}
-
-async function defaultPromptForSecret(message) {
-  const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-  });
-  try {
-    return await rl.question(message);
-  } finally {
-    rl.close();
-  }
-}
-
-async function defaultSpawnProcess(command, args, options = {}) {
-  return await new Promise((resolve, reject) => {
-    const child = spawn(command, args, {
-      stdio: "inherit",
-      ...options,
-    });
-    child.on("close", (code) => resolve(code ?? 0));
-    child.on("error", reject);
-  });
 }
 
 function installSkills({ bundleRoot, homeDir }) {
@@ -84,120 +52,43 @@ function installSkills({ bundleRoot, homeDir }) {
   return targetSkillsDir;
 }
 
-async function ensureFlowusToken({ ctx }) {
-  const envToken = ctx.env.ODOO_FORGE_FLOWUS_TOKEN ?? ctx.env.FLOWUS_TOKEN;
-  const currentToken =
-    envToken ??
-    readCodexManagedToken({ homeDir: ctx.homeDir }) ??
-    readClaudeManagedToken({ homeDir: ctx.homeDir });
-
-  if (currentToken) {
-    return currentToken;
+function countInstalledSkills(skillsPath) {
+  if (!fs.existsSync(skillsPath)) {
+    return 0;
   }
 
-  const prompted = await ctx.promptForSecret("FlowUS token is required.\nPaste your FlowUS token: ");
-  const token = prompted.trim();
-  if (!token) {
-    throw new Error("FlowUS token is required.");
-  }
-  return token;
+  return fs
+    .readdirSync(skillsPath, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .length;
 }
 
 function runDoctor(ctx) {
   const skillsPath = getInstalledSkillsPath({ homeDir: ctx.homeDir });
-  const codexConfigPath = getCodexConfigPath({ homeDir: ctx.homeDir });
-  const claudeConfigPath = getClaudeConfigPath({ homeDir: ctx.homeDir });
-  const codexToken = readCodexManagedToken({ homeDir: ctx.homeDir });
-  const claudeToken = readClaudeManagedToken({ homeDir: ctx.homeDir });
 
   ctx.output.log("Odoo Forge doctor");
   ctx.output.log(`Skills root: ${skillsPath}`);
   ctx.output.log(`Skills installed: ${fs.existsSync(skillsPath) ? "yes" : "no"}`);
-  ctx.output.log(`Codex config exists: ${fs.existsSync(codexConfigPath) ? "yes" : "no"}`);
-  ctx.output.log(`Codex FlowUS MCP exists: ${codexToken ? "yes" : "no"}`);
-  ctx.output.log(`Claude config exists: ${fs.existsSync(claudeConfigPath) ? "yes" : "no"}`);
-  ctx.output.log(`Claude FlowUS MCP exists: ${claudeToken ? "yes" : "no"}`);
-  ctx.output.log(`FlowUS token synchronized: ${codexToken && claudeToken && codexToken === claudeToken ? "yes" : "no"}`);
+  ctx.output.log(`Installed skills count: ${countInstalledSkills(skillsPath)}`);
 }
 
 async function runInstallLike(ctx, mode) {
   const bundleRoot = await resolveBundleRoot(ctx.bundleRoot);
-  const token = await ensureFlowusToken({ ctx });
   const skillsPath = installSkills({
     bundleRoot,
     homeDir: ctx.homeDir,
   });
 
-  const codexResult = installCodexWiring({
-    homeDir: ctx.homeDir,
-    token,
-  });
-  const claudeResult = installClaudeWiring({
-    homeDir: ctx.homeDir,
-    token,
-  });
-
   ctx.output.log(`${mode} complete.`);
   ctx.output.log(`Skills root: ${skillsPath}`);
-  ctx.output.log(`Codex config: ${codexResult.configPath}`);
-  ctx.output.log(`Claude config: ${claudeResult.configPath}`);
-}
-
-async function runLogin(ctx, provider) {
-  if (provider !== "flowus") {
-    throw new Error(`Unsupported provider: ${provider}`);
-  }
-
-  const token =
-    ctx.env.ODOO_FORGE_FLOWUS_TOKEN ??
-    ctx.env.FLOWUS_TOKEN ??
-    (await ctx.promptForSecret("Paste your FlowUS token: ")).trim();
-
-  if (!token) {
-    throw new Error("FlowUS token is required.");
-  }
-
-  const codexResult = installCodexWiring({
-    homeDir: ctx.homeDir,
-    token,
-  });
-  const claudeResult = installClaudeWiring({
-    homeDir: ctx.homeDir,
-    token,
-  });
-
-  ctx.output.log(`Saved FlowUS token to ${codexResult.configPath}`);
-  ctx.output.log(`Saved FlowUS token to ${claudeResult.configPath}`);
-}
-
-async function runMcp(ctx, provider) {
-  if (provider !== "flowus") {
-    throw new Error(`Unsupported MCP provider: ${provider}`);
-  }
-
-  const token = ctx.env.FLOWUS_TOKEN ?? ctx.env.ODOO_FORGE_FLOWUS_TOKEN;
-
-  if (!token) {
-    throw new Error("Missing FlowUS token. Set FLOWUS_TOKEN before running `odoo-forge mcp flowus`.");
-  }
-
-  return await ctx.spawnProcess("npx", ["-y", "flowus-mcp-server@latest"], {
-    env: {
-      ...ctx.env,
-      FLOWUS_TOKEN: token,
-    },
-  });
+  ctx.output.log(`Installed skills count: ${countInstalledSkills(skillsPath)}`);
 }
 
 function normalizeContext(overrides = {}) {
   return {
     homeDir: overrides.homeDir ?? os.homedir(),
-    platform: overrides.platform ?? process.platform,
-    env: overrides.env ?? process.env,
     bundleRoot: overrides.bundleRoot,
     output: overrides.output ?? console,
-    promptForSecret: overrides.promptForSecret ?? defaultPromptForSecret,
-    spawnProcess: overrides.spawnProcess ?? defaultSpawnProcess,
   };
 }
 
@@ -214,12 +105,6 @@ export async function main(argv, overrides = {}) {
       break;
     case "doctor":
       runDoctor(ctx);
-      break;
-    case "login":
-      await runLogin(ctx, argv[1]);
-      break;
-    case "mcp":
-      await runMcp(ctx, argv[1]);
       break;
     case "help":
     case "--help":

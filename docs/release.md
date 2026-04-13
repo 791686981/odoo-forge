@@ -8,7 +8,6 @@ Internal 1.0 only includes:
 
 - `odoo-forge-bundle`
 - `odoo-forge`
-- one MCP provider: `flowus`
 
 ## Publish Order
 
@@ -73,22 +72,18 @@ odoo-forge doctor
 Verify:
 
 1. `~/.agents/skills/` contains the installed Odoo Forge skills
-2. `~/.codex/config.toml` contains the managed `flowus` block
-3. `~/.claude.json` contains `mcpServers.flowus`
-4. `odoo-forge doctor` reports both Codex and Claude FlowUS MCP as present
+2. `odoo-forge doctor` reports `Skills installed: yes`
+3. `odoo-forge doctor` reports a non-zero `Installed skills count`
 
 ## Windows Manual Smoke Checklist
 
 Run these checks on a real Windows machine before calling the release stable:
 
 1. `npm i -g odoo-forge`
-2. set `ODOO_FORGE_FLOWUS_TOKEN` in PowerShell or use `odoo-forge login flowus`
-3. run `odoo-forge install`
-4. run `odoo-forge doctor`
-5. confirm `%USERPROFILE%\\.agents\\skills` contains the installed Odoo Forge skills
-6. confirm `%USERPROFILE%\\.codex\\config.toml` contains the managed `flowus` block
-7. confirm `%USERPROFILE%\\.claude.json` contains `mcpServers.flowus`
-8. confirm `odoo-forge doctor` shows both FlowUS MCP entries as present
+2. run `odoo-forge install`
+3. run `odoo-forge doctor`
+4. confirm `%USERPROFILE%\\.agents\\skills` contains the installed Odoo Forge skills
+5. confirm `odoo-forge doctor` shows `Skills installed: yes`
 
 ## Cleanup
 
