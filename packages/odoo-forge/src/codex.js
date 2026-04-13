@@ -12,8 +12,97 @@ export function buildCodexManagedBlock({ token }) {
 type = "stdio"
 command = "npx"
 args = ["-y", "flowus-mcp-server@latest"]
-env = { FLOWUS_TOKEN = "${token}" }
+
+[mcp_servers.flowus.env]
+FLOWUS_TOKEN = "${token}"
 ${CODEX_END_MARKER}`;
+}
+
+function stripManagedBlock({
+  originalContent,
+  startMarker,
+  endMarker,
+}) {
+  const startIndex = originalContent.indexOf(startMarker);
+  const endIndex = originalContent.indexOf(endMarker);
+
+  if (startIndex === -1 || endIndex === -1 || endIndex <= startIndex) {
+    return originalContent;
+  }
+
+  const blockEnd = endIndex + endMarker.length;
+  return `${originalContent.slice(0, startIndex)}${originalContent.slice(blockEnd)}`;
+}
+
+function isFlowusSectionHeader(headerName) {
+  return headerName === "mcp_servers.flowus" || headerName.startsWith("mcp_servers.flowus.");
+}
+
+function removeFlowusSections(originalContent) {
+  const lines = originalContent.split("\n");
+  const keptLines = [];
+  let skipCurrentSection = false;
+
+  for (const line of lines) {
+    const sectionMatch = line.match(/^\s*\[([^\]]+)\]\s*$/);
+    if (sectionMatch) {
+      skipCurrentSection = isFlowusSectionHeader(sectionMatch[1]);
+    }
+
+    if (!skipCurrentSection) {
+      keptLines.push(line);
+    }
+  }
+
+  return keptLines.join("\n");
+}
+
+function readSectionContent({ originalContent, sectionName }) {
+  const lines = originalContent.split("\n");
+  const collected = [];
+  let inSection = false;
+
+  for (const line of lines) {
+    const sectionMatch = line.match(/^\s*\[([^\]]+)\]\s*$/);
+    if (sectionMatch) {
+      if (inSection) {
+        break;
+      }
+      inSection = sectionMatch[1] === sectionName;
+      continue;
+    }
+
+    if (inSection) {
+      collected.push(line);
+    }
+  }
+
+  return inSection ? collected.join("\n") : null;
+}
+
+function extractTokenFromContent(originalContent) {
+  const flowusSection = readSectionContent({
+    originalContent,
+    sectionName: "mcp_servers.flowus",
+  });
+  const envSection = readSectionContent({
+    originalContent,
+    sectionName: "mcp_servers.flowus.env",
+  });
+
+  const candidates = [envSection, flowusSection, originalContent];
+  for (const candidate of candidates) {
+    if (!candidate) {
+      continue;
+    }
+
+    const inlineMatch = candidate.match(/FLOWUS_TOKEN\s*=\s*"([^"]+)"/);
+    if (inlineMatch) {
+      return inlineMatch[1];
+    }
+  }
+
+  return null;
 }
 
 export function upsertManagedBlock({
@@ -22,15 +111,13 @@ export function upsertManagedBlock({
   endMarker,
   block,
 }) {
-  const startIndex = originalContent.indexOf(startMarker);
-  const endIndex = originalContent.indexOf(endMarker);
-
-  if (startIndex !== -1 && endIndex !== -1 && endIndex > startIndex) {
-    const blockEnd = endIndex + endMarker.length;
-    return `${originalContent.slice(0, startIndex)}${block}${originalContent.slice(blockEnd)}`;
-  }
-
-  const trimmed = originalContent.trimEnd();
+  const withoutManagedBlock = stripManagedBlock({
+    originalContent,
+    startMarker,
+    endMarker,
+  });
+  const withoutFlowusSections = removeFlowusSections(withoutManagedBlock);
+  const trimmed = withoutFlowusSections.trimEnd();
   return trimmed ? `${trimmed}\n\n${block}\n` : `${block}\n`;
 }
 
@@ -43,13 +130,12 @@ export function readCodexManagedToken({ homeDir }) {
   const content = fs.readFileSync(configPath, "utf8");
   const startIndex = content.indexOf(CODEX_START_MARKER);
   const endIndex = content.indexOf(CODEX_END_MARKER);
-  if (startIndex === -1 || endIndex === -1 || endIndex <= startIndex) {
-    return null;
+  if (startIndex !== -1 && endIndex !== -1 && endIndex > startIndex) {
+    const managedBlock = content.slice(startIndex, endIndex + CODEX_END_MARKER.length);
+    return extractTokenFromContent(managedBlock);
   }
 
-  const managedBlock = content.slice(startIndex, endIndex + CODEX_END_MARKER.length);
-  const match = managedBlock.match(/FLOWUS_TOKEN\s*=\s*"([^"]+)"/);
-  return match?.[1] ?? null;
+  return extractTokenFromContent(content);
 }
 
 export function installCodexWiring({ homeDir, token }) {

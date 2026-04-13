@@ -87,6 +87,50 @@ test("login flowus 会同步更新 Codex 与 Claude 的 token", async () => {
   assert.equal(claudeConfig.mcpServers.flowus.env.FLOWUS_TOKEN, "next-token");
 });
 
+test("doctor 能识别 Codex 里现有可用的分节 FlowUS 配置", async () => {
+  const homeDir = fs.mkdtempSync(path.join(os.tmpdir(), "odoo-forge-doctor-"));
+  const logs = [];
+
+  fs.mkdirSync(path.join(homeDir, ".codex"), { recursive: true });
+  fs.writeFileSync(path.join(homeDir, ".codex", "config.toml"), `model = "gpt-5.4"
+
+[mcp_servers.flowus]
+type = "stdio"
+command = "npx"
+args = ["-y", "flowus-mcp-server@latest"]
+
+[mcp_servers.flowus.env]
+FLOWUS_TOKEN = "shared-token"
+`);
+
+  fs.writeFileSync(path.join(homeDir, ".claude.json"), JSON.stringify({
+    mcpServers: {
+      flowus: {
+        type: "stdio",
+        command: "npx",
+        args: ["-y", "flowus-mcp-server@latest"],
+        env: {
+          FLOWUS_TOKEN: "shared-token",
+        },
+      },
+    },
+  }));
+
+  await main(["doctor"], {
+    homeDir,
+    output: {
+      log(message) {
+        logs.push(message);
+      },
+      error() {},
+    },
+  });
+
+  assert.ok(logs.includes("Codex FlowUS MCP exists: yes"));
+  assert.ok(logs.includes("Claude FlowUS MCP exists: yes"));
+  assert.ok(logs.includes("FlowUS token synchronized: yes"));
+});
+
 test("mcp flowus 会优先读取环境变量并启动真实 MCP 进程", async () => {
   let launched = null;
   await main(["mcp", "flowus"], {
